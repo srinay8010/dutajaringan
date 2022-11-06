@@ -856,10 +856,31 @@ ul.easy li a:hover {
      font-size: 40px;
 }
 
-.about_page .abt_bg{
+.about_page .up_bg{
+     background: url(../images/bg.jpg);
+     opacity: 90%;
+}
+
+.about_page .mid_bg{
      background: url(../images/bg.jpg);
 }
 
+.about_page p{
+     font-size: 1.1rem;
+}
+
+.about_page .banner{
+     padding-top: 1.2rem;
+     background: url(../images/bg.jpg);
+}
+
+.about_page .mid{
+     padding-top: 1.2rem;
+}
+
+.about_page .mid .desc_image{
+     padding-top: 2rem;
+}
 /** end about page **/
 
 

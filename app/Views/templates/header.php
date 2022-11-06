@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Duta Jaringan</title>
+      <title>Duta Jaringan Indonesia</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -70,7 +70,7 @@
                      </div>
                      <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                         <ul class="btn">
-                           
+                        <li class="down_btn"><a href="#">Download</a></li>
                            <li><button type="button" id="sidebarCollapse">
                               <img src="<?= base_url('./images/menu_icon.png'); ?>" alt="#" />
                               </button>
