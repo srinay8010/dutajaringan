@@ -41,6 +41,10 @@
       <div class="sidebar">
          <!-- Sidebar  -->
          <nav id="sidebar">
+         <div class="logo_side">
+            <div class="col-md-10">
+               <img src="<?= base_url('./images/logo_alt.png'); ?>" alt="#" />
+            </div>
             <div id="dismiss">
                <i class="fa fa-arrow-left"></i>
             </div>
