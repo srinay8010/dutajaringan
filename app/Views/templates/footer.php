@@ -24,7 +24,6 @@
                               <ul class="social_icon">
                                  <li><a href="https://facebook.com">Facebook <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                  <li><a href="https://twitter.com"> Twitter<i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                 <li><a href="#"> Linkedin<i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
                                  <li><a href="https://youtube.com"> Youtube<i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                                  <li><a href="https://instagram.com"> Instagram<i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                               </ul>
