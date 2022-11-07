@@ -26,7 +26,15 @@ class Pages extends BaseController
             . view('templates/footer');
     }
 
-    public function works($page = 'works')
+    public function services($page = 'services')
+    {
+        $data['title'] = ucfirst($page);
+        return view('templates/header', $data)
+            . view('pages/' . $page)
+            . view('templates/footer');
+    }
+
+    public function products($page = 'products')
     {
         $data['title'] = ucfirst($page);
         return view('templates/header', $data)

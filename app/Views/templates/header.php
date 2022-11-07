@@ -16,10 +16,6 @@
       <link rel="stylesheet" href="<?= base_url('./styles/bootstrap.min.css'); ?>">
       <!-- style css -->
       <link rel="stylesheet" href="<?= base_url('./styles/style.css'); ?>">
-      <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
       <!-- Responsive-->
       <link rel="stylesheet" href="<?= base_url('./styles/responsive.css'); ?>">
       <!-- fevicon -->
@@ -28,7 +24,6 @@
       <link rel="stylesheet" href="<?= base_url('./styles/jquery.mCustomScrollbar.min.css'); ?>">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -67,7 +62,7 @@
             <div class="header">
                <div class="container-fluid">
                   <div class="row">
-                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col logo_section">
                         <div class="full">
                            <div class="center-desk">
                               <div class="logo">
@@ -76,21 +71,25 @@
                            </div>
                         </div>
                      </div>
-                     
-                        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+                     <div class="col-md-6">
+                     <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
 
                            <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
                               <img src="<?= base_url('./images/menu_icon.png'); ?>" alt="#" />
                            </button>
                            
                            <nav class="navbar-menu">
-                              <button type="button">Skills</button>
-                              <button type="button" class="active">Awards</button>
-                              <button type="button">Projects</button>
+                              <a href="<?= base_url('/products'); ?>">Products</a>
+                              <a href="<?= base_url('/services'); ?>">Services</a>
+                              <a href="<?= base_url('/about'); ?>">About</a>
+                              <a href="#contact">Contact</a>
                            </nav>
+               </div>
+</div>
+                        
                      
                   </div>
-               </div>
+                  
             </div>
          </header>
          <!-- end header inner -->

@@ -5,12 +5,13 @@
                   <div class="row">
                      <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12">
                         <div class="row">
-                           <div class="col-md-9 col-sm-9">
+                           <div class="col-md-12 col-sm-12">
                               <div class="address">
                                  <h3>Address </h3>
                               </div>
                               <ul class="location_icon">
-                                 <li>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </li>
+                                 <li>PT Duta Jaringan Indonesia</li>
+                                 <li>Lagoon Avenue Bekasi Management Office Lantai G, Kawasan Grand Kamala Lagoon, Jl. Chandrabaga, Kota Bekasi, Jawa Barat, 17141</li>
                               </ul>
                            </div>
                         </div>
@@ -23,9 +24,10 @@
                               </div>
                               <ul class="social_icon">
                                  <li><a href="https://facebook.com">Facebook <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                 <li><a href="https://twitter.com"> Twitter<i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                  <li><a href="https://youtube.com"> Youtube<i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                 <li><a href="https://instagram.com"> Instagram<i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                 <li><a href="https://instagram.com/dutajaringanindonesia"> Instagram<i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                 <li><a href="https://linkedin.com"> LinkedIn<i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                 <li><a href="https://wa.me/081383499425?text=Testing%20test"> WhatsApp<i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
                               </ul>
                            </div>
                            <div class="col-md-7 col-sm-6">
