@@ -23,11 +23,11 @@
                                  <h3>Follow Us</h3>
                               </div>
                               <ul class="social_icon">
-                                 <li><a href="https://facebook.com">Facebook <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                 <li><a href="https://facebook.com/dutajaringanindonesia">Facebook <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                  <li><a href="https://youtube.com"> Youtube<i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                                  <li><a href="https://instagram.com/dutajaringanindonesia"> Instagram<i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                  <li><a href="https://linkedin.com"> LinkedIn<i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                 <li><a href="https://wa.me/081383499425?text=Testing%20test"> WhatsApp<i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                 <li><a href="https://wa.me/0895332908555?text=Testing%20test"> WhatsApp<i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
                               </ul>
                            </div>
                            <div class="col-md-7 col-sm-6">

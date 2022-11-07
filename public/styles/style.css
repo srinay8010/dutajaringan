@@ -598,7 +598,7 @@ ul.btn li:last-child {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .header::after {
-     background: url(../images/cross_top.png);
+     
      content: "";
      position: absolute;
      width: 558px;
@@ -610,7 +610,7 @@ ul.btn li:last-child {
 
 .header {
      width: 100%;
-     background: #11aeef;
+     background: #ffffff;
      padding: 35px 30px;
      position: relative;
      z-index: 960;
@@ -621,7 +621,7 @@ ul.btn li:last-child {
      font-weight: bold;
      text-transform: uppercase;
      color: #fff;
-     line-height: 40px;
+     line-height: 10px;
 }
 
 
