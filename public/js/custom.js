@@ -354,11 +354,12 @@ function getURL() { window.location.href; } var protocol = location.protocol; $.
         interval: 5000
      });
 
-
-
-
-
-
+	 
 
 
 });
+
+/*Navbar responsive
+	 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+	 const toggleMenuOpen = () => document.body.classList.toggle("open");

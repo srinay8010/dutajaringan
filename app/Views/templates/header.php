@@ -16,6 +16,10 @@
       <link rel="stylesheet" href="<?= base_url('./styles/bootstrap.min.css'); ?>">
       <!-- style css -->
       <link rel="stylesheet" href="<?= base_url('./styles/style.css'); ?>">
+      <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
       <!-- Responsive-->
       <link rel="stylesheet" href="<?= base_url('./styles/responsive.css'); ?>">
       <!-- fevicon -->
@@ -72,15 +76,19 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                        <ul class="btn">
-                        <li class="down_btn"><a href="#">Download</a></li>
-                           <li><button type="button" id="sidebarCollapse">
+                     
+                        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+                           <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
                               <img src="<?= base_url('./images/menu_icon.png'); ?>" alt="#" />
-                              </button>
-                           </li>
-                        </ul>
-                     </div>
+                           </button>
+                           
+                           <nav class="navbar-menu">
+                              <button type="button">Skills</button>
+                              <button type="button" class="active">Awards</button>
+                              <button type="button">Projects</button>
+                           </nav>
+                     
                   </div>
                </div>
             </div>
