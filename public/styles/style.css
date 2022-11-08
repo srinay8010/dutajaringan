@@ -558,6 +558,7 @@ ul.btn li:last-child {
 
    .navbar-menu button{
      float: left;
+     min-width: 40px;
    }
    
    body.open .navbar-menu {
@@ -606,15 +607,21 @@ ul.btn li:last-child {
    .dropdown-navbar-content {
      display: none;
   position: absolute;
-  left: 0;
   background-color: #f9f9f9;
-  min-width: relative;
-  max-height: fit-content;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  left: 0;
+  min-width: 160px;
+  width: 200px;
+  
   padding: 12px 16px;
   z-index: 1;
   text-align: center;
   align-items: center;
+  font-size: 1.1rem;
+   }
+
+   .dropdown-navbar-content button a{
+     float: left;
+     text-align: left;
    }
 
    .dropdown-navbar:hover .dropdown-navbar-content {
@@ -731,6 +738,14 @@ ul.btn li:last-child {
 .carousel-control-next,
 .carousel-control-prev {
      display: none;
+}
+.banner_bg {
+     background: url(../images/iot.jpg);
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 89%;
+     padding: 160px 0;
 }
 
 

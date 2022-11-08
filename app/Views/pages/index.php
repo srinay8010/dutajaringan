@@ -1,79 +1,14 @@
 <!-- banner -->
-<div id="myCarousel" class="carousel slide banner_main" data-ride="carousel">
-            <ol class="carousel-indicators">
-               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-               <li data-target="#myCarousel" data-slide-to="1"></li>
-               <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container-fluid">
-                     <div class="carousel-caption">
-                        <div class="row">
-                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                              <div class="text-bg">
-                                 <h1>Get<br> Thinking A <br>long time</h1>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                                 <a class="read_more" href="#">Read more</a>
-                              </div>
-                           </div>
-                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                              <div class="images_box">
-                                 <figure><img src="<?= base_url('./images/img2.png'); ?>"></figure>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container-fluid ">
-                     <div class="carousel-caption">
-                        <div class="row">
-                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                              <div class="text-bg">
-                                 <h1>Get<br> Thinking A <br>long time</h1>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                                 <a class="read_more" href="#">Read more</a>
-                              </div>
-                           </div>
-                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                              <div class="images_box">
-                                 <figure><img src="<?= base_url('./images/img2.png'); ?>" alt="#"></figure>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container-fluid">
-                     <div class="carousel-caption ">
-                        <div class="row">
-                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                              <div class="text-bg">
-                                 <h1>Get<br> Thinking A <br>long time</h1>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                                 <a class="read_more" href="#">Read more</a>
-                              </div>
-                           </div>
-                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                              <div class="images_box">
-                                 <figure><img src="<?= base_url('./images/img2.png'); ?>"></figure>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-            </a>
-         </div>
+<div class="banner">
+<div class="banner_bg">
+   <div class="container">
+      <div class="row">
+        
+
+</div>
+</div>
+</div>
+</div>
          <!-- end banner -->
          <!-- about -->
          <div id="about"  class="about">
