@@ -71,7 +71,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
                      <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
 
                            <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
@@ -79,7 +79,35 @@
                            </button>
                            
                            <nav class="navbar-menu">
-                              <a href="<?= base_url('/products'); ?>">Products</a>
+                              <div class="dropdown-navbar">
+                                 <a href="<?= base_url('/products'); ?>">Products</a>
+                                 <div class="dropdown-navbar-content">
+                                    <div class="dropright">
+                                    <div class="dropdown dropright">
+                                    <!-- <a href="<?= base_url('/products/#CCTV'); ?>">CCTV NVR Switch UTP Electrical Fiber Optic Media Converter Harddisk</a> -->
+                                    <button type="button" class="btn" data-toggle="dropdown"><a href="<?= base_url('/products/#CCTV'); ?>">Access Control <i class="fa fa-angle-right" aria-hide="true"></i></a></button>
+                                    <button type="button" class="btn" data-toggle="dropdown"><a href="<?= base_url('/products/#CCTV'); ?>">Cables <i class="fa fa-angle-right" aria-hide="true"></i></a></button>                 
+                                    <button type="button" class="btn" data-toggle="dropdown"><a href="<?= base_url('/products/#CCTV'); ?>">CCTV <i class="fa fa-angle-right" aria-hide="true"></i></a></button>                   
+                                    <button type="button" class="btn" data-toggle="dropdown"><a href="<?= base_url('/products/#CCTV'); ?>">Grounding <i class="fa fa-angle-right" aria-hide="true"></i></a></button>
+                                    <button type="button" class="btn" data-toggle="dropdown"><a href="<?= base_url('/products/#CCTV'); ?>">Harddisk <i class="fa fa-angle-right" aria-hide="true"></i></a></button>
+                                    <button type="button" class="btn" data-toggle="dropdown"><a href="<?= base_url('/products/#CCTV'); ?>">Internet of Things <i class="fa fa-angle-right" aria-hide="true"></i></a></button>
+                                    <button type="button" class="btn" data-toggle="dropdown"><a href="<?= base_url('/products/#CCTV'); ?>">Mesin Absen <i class="fa fa-angle-right" aria-hide="true"></i></a></button>
+                                    <button type="button" class="btn" data-toggle="dropdown"><a href="<?= base_url('/products/#CCTV'); ?>">Media Converter <i class="fa fa-angle-right" aria-hide="true"></i></a></button>
+                                    <button type="button" class="btn" data-toggle="dropdown"><a href="<?= base_url('/products/#CCTV'); ?>">NVR <i class="fa fa-angle-right" aria-hide="true"></i></a></button>
+                                    <!--<div class="dropright-content">
+                                    <div class="dropdown-menu">
+                                       <a class="drodown-item">Item#$1</a>
+                                    </div>
+                                    </div> -->
+                                    <!--Consultation
+                                    Implementation
+                                    Rental
+                                    Maintenance and service -->
+                                    
+                                    </div>
+                                    </div>
+                                 </div>
+                              </div>
                               <a href="<?= base_url('/services'); ?>">Services</a>
                               <a href="<?= base_url('/about'); ?>">About</a>
                               <a href="#contact">Contact</a>

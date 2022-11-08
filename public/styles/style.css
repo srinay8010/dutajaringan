@@ -543,9 +543,9 @@ ul.btn li:last-child {
      translate: -100% 0;
      width: 270px;
      height: 100%;
-     padding-left: 1.3rem;
+     padding-left: 1.5rem;
      padding-right: 20px;
-     padding-top: 20px;
+     padding-top: 32px;
      padding-bottom: 20px;
      display: flex;
      gap: 8px;
@@ -557,7 +557,7 @@ ul.btn li:last-child {
    }
 
    .navbar-menu button{
-     float: right;
+     float: left;
    }
    
    body.open .navbar-menu {
@@ -583,10 +583,44 @@ ul.btn li:last-child {
      padding: 0 10px;
      font-size: 1.3rem;
    }
+
+   .navbar-menu > a:hover {
+     color:#00aeef !important;
+     background: transparent;
+   }
    
    .navbar-menu > button.active {
      color: inherit;
    }
+
+   .dropdown-navbar {
+     position: relative;
+     display: inline-block;
+     color: rgb(0, 0, 0);
+     background: transparent;
+     right: 0;
+     padding: 0 10px;
+     font-size: 1.3rem;
+   }
+
+   .dropdown-navbar-content {
+     display: none;
+  position: absolute;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: relative;
+  max-height: fit-content;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  text-align: center;
+  align-items: center;
+   }
+
+   .dropdown-navbar:hover .dropdown-navbar-content {
+     display: block;
+   }
+   
 
 
 /*-- header area --*/
@@ -622,6 +656,12 @@ ul.btn li:last-child {
      text-transform: uppercase;
      color: #fff;
      line-height: 10px;
+}
+
+.logo img{
+     max-width: 80%;
+
+     align-items: center;
 }
 
 
