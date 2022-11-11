@@ -658,7 +658,8 @@ ul.btn li:last-child {
 
 .header {
      width: 100%;
-     background: #fff;
+     background: rgb(0, 0, 0);
+     opacity: 90%;
      padding: 15px 30px;
      position: relative;
      z-index: 960;

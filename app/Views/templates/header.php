@@ -61,7 +61,7 @@
          <!-- header -->
          <header>
             <!-- header inner -->
-            <div class="header">
+            <div class="header border-0 shadow">
                <div class="container-fluid">
                   <div class="row">
                      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col logo_section">
