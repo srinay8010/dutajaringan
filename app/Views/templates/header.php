@@ -88,7 +88,10 @@
                                     <div class="dropdown dropright">
                                     <!-- <a href="<?= base_url('/products/#CCTV'); ?>">CCTV NVR Switch UTP Electrical Fiber Optic Media Converter Harddisk</a> -->
                                     
-                                    
+                                    <a href="<?= base_url('/products/#CCTV'); ?>" data-toggle="dropdown">Absent Machine <i class="fa fa-angle-right" aria-hide="true"></i></a>
+                                    <div class="dropdown-menu">
+                                       <a class="drodown-item">Item#$1</a>
+                                    </div>
                                     <a href="<?= base_url('/products/#CCTV'); ?>" data-toggle="dropdown">Access Control <i class="fa fa-angle-right" aria-hide="true"></i></a>
                                     <div class="dropdown-menu">
                                        <a class="drodown-item">Item#$1</a>
@@ -110,10 +113,6 @@
                                        <a class="drodown-item">Item#$1</a>
                                     </div>
                                     <a href="<?= base_url('/products/#CCTV'); ?>" data-toggle="dropdown">Internet of Things <i class="fa fa-angle-right" aria-hide="true"></i></a>
-                                    <div class="dropdown-menu">
-                                       <a class="drodown-item">Item#$1</a>
-                                    </div>
-                                    <a href="<?= base_url('/products/#CCTV'); ?>" data-toggle="dropdown">Absent Machine <i class="fa fa-angle-right" aria-hide="true"></i></a>
                                     <div class="dropdown-menu">
                                        <a class="drodown-item">Item#$1</a>
                                     </div>
@@ -143,6 +142,7 @@
                                  <a href="<?= base_url('/services'); ?>">Services</a>
                                  <div class="dropdown-navbar-content">
                                     <div class="dropright">
+                                    <a href="<?= base_url('/services/#Construction'); ?>">Construction <i class="fa fa-angle-right" aria-hide="true"></i></a>
                                     <a href="<?= base_url('/services/#Implementation'); ?>">Implementation <i class="fa fa-angle-right" aria-hide="true"></i></a>
                                     <a href="<?= base_url('/services/#Maintenance'); ?>">Maintenance & Service <i class="fa fa-angle-right" aria-hide="true"></i></a>
                                     <a href="<?= base_url('/services/#Rental'); ?>">Rental <i class="fa fa-angle-right" aria-hide="true"></i></a>

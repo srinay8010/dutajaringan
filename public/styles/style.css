@@ -658,7 +658,7 @@ ul.btn li:last-child {
 
 .header {
      width: 100%;
-     background: rgb(0, 0, 0);
+     background: rgb(255, 255, 255);
      opacity: 90%;
      padding: 15px 30px;
      position: relative;
@@ -738,7 +738,9 @@ ul.btn li:last-child {
      padding: 160px 0;
 }
 
-
+.banner {
+     padding-top: 50px;
+}
 
 
 /** banner section **/
@@ -818,6 +820,8 @@ ul.btn li:last-child {
      float: right;
 }
 
+
+
 .about_img figure {
      margin: 0;
 }
@@ -839,7 +843,7 @@ ul.btn li:last-child {
 
 .choose_bg {
      background: url(../images/why.jpg);
-     padding: 120px 0;
+     padding: 30px 0;
 }
 
 .choose .choose_box {

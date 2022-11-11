@@ -16,14 +16,19 @@
                <div class="row d_flex">
                   <div class="col-md-5">
                      <div class="about_img">
-                        <figure><img src="<?= base_url('./images/about_img.jpg'); ?>" alt="#"/></figure>
+                        <figure><img src="<?= base_url('./images/about_index.jpeg'); ?>" alt="#"/></figure>
                      </div>
                   </div>
                   <div class="col-md-7">
                      <div class="titlepage">
-                        <h2>About <span class="blu">Software</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
-                        <a class="read_more" href="<?= base_url('/about'); ?>">About Us</a>
+                        <h2>About <span class="blu">Company</span></h2>
+                        <p>PT DUTA JARINGAN INDONESIA didirikan pada bulan Juni 2021, berlokasi di 
+                        Lagoon Avenue Bekasi Management Office Lantai G, Kawasan Grand Kamala \
+                        Lagoon, Jl. Chandrabaga, Kota Bekasi, Jawa Barat, 17141. Kami bergerak di bidang 
+                        teknologi,jaringan, jasa, dan perawatan properti kantor, hotel, dan rumah dengan didukung tenaga kerja yang profesional. 
+                        Duta Jaringan berdedikasi memberikan pelayanan yang terbaik untuk memenuhi kebutuhan para customer.
+                        </p>
+                        <a class="read_more" href="<?= base_url('/about'); ?>">More About Us</a>
                      </div>
                   </div>
                </div>
@@ -36,7 +41,7 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="titlepage">
-                        <h2>Why <span class="blu"> Choose Us</span></h2>
+                        <h2>Our <span class="blu"> Services</span></h2>
                      </div>
                   </div>
                </div>
@@ -46,19 +51,22 @@
                   <div class="row">
                      <div class="col-md-12">
                         <div class="row">
-                           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right0">
+                           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right">
                               <ul class="easy">
-                                 <li class="active"><a href="#">Easy to cutomize</a></li>
-                                 <li><a href="#">More flexible</a></li>
-                                 <li><a href="#">Clean mode</a></li>
-                                 <li><a href="#">Ratinaready</a></li>
+                                 <li class="active"><a href="#">Construction</a></li>
+                                 <li><a href="#">Implementation</a></li>
+                                 <li><a href="#">Maintenance & Service</a></li>
+                                 <li><a href="#">Rental</a></li>
+                                 <li><a href="#">Web Development</a></li>
                               </ul>
                            </div>
                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 padding_left0">
                               <div class="choose_box">
                                  <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#"/></i>
-                                 <h3> Ad Minim</h3>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                 <h3>Rental</h3>
+                                 <p>
+                                    PT DUTA JARINGAN INDONESIA menawarkan jasa untuk membangun dan mendesain sebuah website untuk memenuhi kebutuhan bisnis Anda.                                                                 
+                                 </p>
                               </div>
                            </div>
                         </div>
@@ -68,26 +76,7 @@
             </div>
          </div>
          <!-- end choose  section -->
-         <!-- work -->
-         <div id="work"  class="work">
-            <div class="container-fluid">
-               <div class="row d_flex">
-                  <div class="col-md-7">
-                     <div class="titlepage">
-                        <h2>How To <span class="blu">Works it</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
-                        <a class="read_more" href="<?= base_url('/works'); ?>">Our Works</a>
-                     </div>
-                  </div>
-                  <div class="col-md-5">
-                     <div class="work_img">
-                        <figure><img src="<?= base_url('./images/work_img.jpg'); ?>" alt="#"/></figure>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end work -->
+         
          <!-- request -->
          <div id="contact" class="request">
             <div class="container">

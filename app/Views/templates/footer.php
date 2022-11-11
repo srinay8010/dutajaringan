@@ -105,7 +105,10 @@
       <script>
          $('.owl-carousel').owlCarousel({
             items:4,
-            loop:false,
+            loop:true,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
             margin:10,
             responsive:{
                0:{
@@ -147,7 +150,7 @@
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
       <!-- end google map js -->
       <script>
-    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?43626';
+    var url = '<?= base_url('./js/shopifyWidget.js'); ?>';
     var s = document.createElement('script');
     s.type = 'text/javascript';
     s.async = true;
