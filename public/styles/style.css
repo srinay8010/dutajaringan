@@ -379,8 +379,8 @@ button {
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-     color: #fff;
-     background: #35bff8;
+     
+     background: transparent;
 }
 
 a[data-toggle="collapse"] {
@@ -544,8 +544,8 @@ ul.btn li:last-child {
      width: 270px;
      height: 100%;
      padding-left: 1.5rem;
-     padding-right: 20px;
-     padding-top: 32px;
+     padding-right: 25px;
+     padding-top: 42px;
      padding-bottom: 20px;
      display: flex;
      gap: 8px;
@@ -610,8 +610,7 @@ ul.btn li:last-child {
   background-color: #f9f9f9;
   left: 0;
   min-width: 160px;
-  width: 200px;
-  
+  width: max-content;
   padding: 12px 16px;
   z-index: 1;
   text-align: center;
@@ -619,7 +618,7 @@ ul.btn li:last-child {
   font-size: 1.1rem;
    }
 
-   .dropdown-navbar-content button a{
+   .dropdown-navbar-content a{
      float: left;
      text-align: left;
    }
@@ -627,7 +626,15 @@ ul.btn li:last-child {
    .dropdown-navbar:hover .dropdown-navbar-content {
      display: block;
    }
+
+   .dropdown-item{
+        background: transparent;
+   }
    
+   .dropright {
+        display: flex;
+        flex-direction: column;
+   }
 
 
 /*-- header area --*/
@@ -651,8 +658,8 @@ ul.btn li:last-child {
 
 .header {
      width: 100%;
-     background: #ffffff;
-     padding: 35px 30px;
+     background: #fff;
+     padding: 15px 30px;
      position: relative;
      z-index: 960;
 }
@@ -720,33 +727,17 @@ ul.btn li:last-child {
      width: 100%;
 }
 
-.carousel-indicators li {
-     background: #000;
-     width: 38px;
-     height: 8px;
-     border-radius: 10px;
-}
 
-.carousel-indicators {
-     bottom: 45px;
-}
-
-.carousel-caption {
-     position: inherit;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-     display: none;
-}
 .banner_bg {
      background: url(../images/iot.jpg);
      display: block;
      margin-left: auto;
      margin-right: auto;
-     max-width: 89%;
+     max-width: 84%;
      padding: 160px 0;
 }
+
+
 
 
 /** banner section **/

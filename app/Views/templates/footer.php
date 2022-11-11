@@ -62,6 +62,8 @@
       <script src="<?= base_url('./js/popper.min.js'); ?>"></script>
       <script src="<?= base_url('./js/bootstrap.bundle.min.js'); ?>"></script>
       <script src="<?= base_url('./js/jquery-3.0.0.min.js'); ?>"></script>
+      <script src="<?= base_url('./js/owl.carousel.js'); ?>"></script>
+      <script src="<?= base_url('./js/owl.carousel.min.js'); ?>"></script>
       <!-- sidebar -->
       <script src="<?= base_url('./js/jquery.mCustomScrollbar.concat.min.js'); ?>"></script>
       <script src="<?= base_url('./js/custom.js'); ?>"></script>
@@ -101,6 +103,24 @@
          });
       </script>
       <script>
+         $('.owl-carousel').owlCarousel({
+            items:4,
+            loop:false,
+            margin:10,
+            responsive:{
+               0:{
+                     items:1
+               },
+               600:{
+                     items:1
+               },
+               1000:{
+                     items:1
+               }
+            }
+         })
+      </script>
+      <script>
          // This example adds a marker to indicate the position of Bondi Beach in Sydney,
          // Australia.
          function initMap() {
@@ -126,5 +146,41 @@
       <!-- google map js -->
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
       <!-- end google map js -->
+      <script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?43626';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#4dc247",
+      "ctaText":"",
+      "borderRadius":"25",
+      "marginLeft":"0",
+      "marginBottom":"50",
+      "marginRight":"50",
+      "position":"right"
+  },
+  "brandSetting":{
+      "brandName":"PT DUTA JARINGAN INDONESIA",
+      "brandSubTitle":"Typically replies within a day",
+      "brandImg":"<?= base_url('./images/logo.png'); ?>",
+      "welcomeText":"Hi there!\nHow can I help you?",
+      "messageText":"Hello, I have a question about your products and services",
+      "backgroundColor":"#0a5f54",
+      "ctaText":"Start Chat",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"62383499425"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
    </body>
 </html>

@@ -39,6 +39,7 @@ $routes->get('/', 'Pages::index');
 $routes->get('/about', 'Pages::about');
 $routes->get('/services', 'Pages::services');
 $routes->get('/products', 'Pages::products');
+$routes->get('/test', 'Pages::test');
 
 
 /*
