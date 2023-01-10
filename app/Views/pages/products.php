@@ -1,3 +1,6 @@
+<?= $this->extend('partials/template'); ?>
+<?= $this->section('content'); ?>
+
 <!-- About -->
 <div class="about_page">
   <!-- Upper -->
@@ -70,3 +73,5 @@
   <!-- End of Mid -->
 </div>
 <!-- End of About Page -->
+
+<?= $this->endSection(); ?>

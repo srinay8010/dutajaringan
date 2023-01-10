@@ -1,3 +1,6 @@
+<?= $this->extend('partials/template'); ?>
+<?= $this->section('content'); ?>
+
 <div class="container">
   <div class="row">
     <div class="owl-carousel owl-theme">
@@ -8,3 +11,5 @@
     </div>
   </div>
 </div>
+
+<?= $this->endSection(); ?>
