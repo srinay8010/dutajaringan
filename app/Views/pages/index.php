@@ -74,7 +74,7 @@
     <h1 class="titlepage mb-5">Request <span class="white">A call Back</span></h1>
 
     <div class="row">
-      <contact-form class="col-md-6">
+      <div class="col-md-6">
         <form id="request" class="main_form" action="" method="POST">
           <input class="contactus" placeholder="Full Name" type="type" name="Full Name">
           <input class="contactus" placeholder="Email" type="type" name="Email">
@@ -83,7 +83,7 @@
 
           <button class="send_btn">Send</button>
         </form>
-      </contact-form>
+      </div>
 
       <div class="col-md-6">
         <div id="map"></div>
@@ -92,19 +92,5 @@
   </div>
 </section>
 <!-- end request -->
-
-<script>
-class ContactForm extends HTMLElement {
-  connectedCallback() {
-    this.render()
-  }
-
-  render() {}
-}
-
-customElements.define('contact-form', ContactForm)
-
-document.querySelector('contact-form').style.display = 'block'
-</script>
 
 <?= $this->endSection(); ?>
