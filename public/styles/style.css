@@ -689,7 +689,7 @@ h1.titlepage {
 /** about section **/
 
 .about {
-  padding-top: 4rem;
+  padding-block: 4rem;
   background: #fafafa;
 }
 
@@ -713,7 +713,7 @@ h1.titlepage {
   padding-bottom: 50px;
 }
 
-.about .titlepage .read_more {
+.about .read_more {
   float: right;
 }
 

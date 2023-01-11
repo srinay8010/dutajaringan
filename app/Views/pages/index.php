@@ -18,7 +18,7 @@
       </div>
 
       <div class="col-md-7">
-        <h2 class="titlepage">About <span class="blu">Company</span></h2>
+        <h1 class="titlepage">About <span class="blu">Company</span></h1>
 
         <p>PT DUTA JARINGAN INDONESIA didirikan pada bulan Juni 2021, berlokasi di
           Lagoon Avenue Bekasi Management Office Lantai G, Kawasan Grand Kamala \
@@ -39,9 +39,7 @@
   <div class="choose_bg">
     <div class="container">
       <div class="row">
-        <div class="titlepage">
-          <h2>Our <span class="white"> Services</span></h2>
-        </div>
+        <h1 class="titlepage text-center mb-4">Our <span class="white"> Services</span></h1>
 
         <div class="col-md-3 col-sm-12 pe-0">
           <ul class="easy">
