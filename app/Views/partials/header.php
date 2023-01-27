@@ -1,5 +1,5 @@
 <!-- header -->
-<header class="position-sticky top-0">
+<header class="position-sticky top-0 z-1">
   <!-- header inner -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
     <div class="container">
@@ -17,106 +17,155 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 align-items-center gap-lg-4 fs-5">
           <li class="nav-item dropdown-navbar">
-            <a href="#">Products</a>
-            <div class="dropdown-navbar-content">
-              <div class="dropright">
-                <div class="dropdown dropright">
-                  <a href="#" data-toggle="dropdown">Absent Machine
+            <div>Products</div>
+            <div class="dropdown-navbar-content shadow">
+              <div class="dropdown dropend">
+                <div>
+                  <div class="d-flex align-items-center" data-bs-toggle="dropdown">
+                    <span>Absent Machine</span>
                     <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
-                  </a>
-
-                  <div class="dropdown-menu">
-                    <a class="drodown-item">Item 1</a>
-                    <a class="drodown-item">Item 2</a>
-                    <a class="drodown-item">Item 3</a>
-                    <a class="drodown-item">Item 4</a>
-                    <a class="drodown-item">Item 5</a>
                   </div>
 
+                  <ul class="dropdown-menu p-2">
+                    <li><a href="/products" class="dropdown-item">Item 1</a></li>
+                    <li><a href="/products" class="dropdown-item">Item 2</a></li>
+                    <li><a href="/products" class="dropdown-item">Item 3</a></li>
+                    <li><a href="/products" class="dropdown-item">Item 4</a></li>
+                    <li><a href="/products" class="dropdown-item">Item 5</a></li>
+                  </ul>
+                </div>
 
-                  <a href="#" data-toggle="dropdown">Access Control
-                    <i class="fa fa-angle-right" aria-hide="true"></i>
-                    <div class="dropdown-menu">
-                      <a class="drodown-item">Item#$1</a>
-                    </div>
-                  </a>
+                <div>
+                  <div class="d-flex align-items-center" data-bs-toggle="dropdown">
+                    <span>Access Control</span>
+                    <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
+                  </div>
 
-                  <a href="#" data-toggle="dropdown">Cables
-                    <i class="fa fa-angle-right" aria-hide="true"></i>
-                    <div class="dropdown-menu">
-                      <a class="drodown-item">Item#$1</a>
-                    </div>
-                  </a>
+                  <ul class="dropdown-menu p-2">
+                    <a href="/products" class="dropdown-item">Item#$1</a>
+                  </ul>
+                </div>
 
-                  <a href="#" data-toggle="dropdown">CCTV
-                    <i class="fa fa-angle-right" aria-hide="true"></i>
-                    <div class="dropdown-menu">
-                      <a class="drodown-item">Item#$1</a>
-                    </div>
-                  </a>
+                <div>
+                  <div class="d-flex align-items-center" data-bs-toggle="dropdown">
+                    <span>Cables</span>
+                    <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
+                  </div>
 
-                  <a href="#" data-toggle="dropdown">Grounding
-                    <i class="fa fa-angle-right" aria-hide="true"></i>
-                    <div class="dropdown-menu">
-                      <a class="drodown-item">Item#$1</a>
-                    </div>
-                  </a>
+                  <ul class="dropdown-menu p-2">
+                    <li><a href="/products" class="dropdown-item">Belden</a></li>
+                  </ul>
+                </div>
 
-                  <a href="#" data-toggle="dropdown">Harddisk
-                    <i class="fa fa-angle-right" aria-hide="true"></i>
-                    <div class="dropdown-menu">
-                      <a class="drodown-item">Item#$1</a>
-                    </div>
-                  </a>
+                <div>
+                  <div class="d-flex align-items-center" data-bs-toggle="dropdown">
+                    <span>CCTV</span>
+                    <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
+                  </div>
 
-                  <a href="#" data-toggle="dropdown">Internet of Things
-                    <i class="fa fa-angle-right" aria-hide="true"></i>
-                    <div class="dropdown-menu">
-                      <a class="drodown-item">Item#$1</a>
-                    </div>
-                  </a>
+                  <ul class="dropdown-menu p-2">
+                    <li><a href="/products" class="dropdown-item">Hikvision</a></li>
+                    <li><a href="/products" class="dropdown-item">Panasonic</a></li>
+                    <li><a href="/products" class="dropdown-item">ACTi</a></li>
+                    <li><a href="/products" class="dropdown-item">AMTEK</a></li>
+                  </ul>
+                </div>
 
-                  <a href="#" data-toggle="dropdown">Media Converter
-                    <i class="fa fa-angle-right" aria-hide="true"></i>
-                    <div class="dropdown-menu">
-                      <a class="drodown-item">Item#$1</a>
-                    </div>
-                  </a>
+                <div>
+                  <div class="d-flex align-items-center" data-bs-toggle="dropdown">
+                    <span>Grounding</span>
+                    <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
+                  </div>
 
-                  <a href="#" data-toggle="dropdown">NVR
-                    <i class="fa fa-angle-right" aria-hide="true"></i>
-                    <div class="dropdown-menu">
-                      <a class="drodown-item">Item#$1</a>
-                    </div>
-                  </a>
+                  <ul class="dropdown-menu p-2">
+                    <li><a href="/products" class="dropdown-item">ANENG</a></li>
+                    <li><a href="/products" class="dropdown-item">Dekko</a></li>
+                    <li><a href="/products" class="dropdown-item">KYORITSU</a></li>
+                    <li><a href="/products" class="dropdown-item">Fluke</a></li>
+                    <li><a href="/products" class="dropdown-item">Sanwa</a></li>
+                    <li><a href="/products" class="dropdown-item">SEW</a></li>
+                  </ul>
+                </div>
+
+                <div>
+                  <div class="d-flex align-items-center" data-bs-toggle="dropdown">
+                    <span>Harddisk</span>
+                    <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
+                  </div>
+
+                  <ul class="dropdown-menu p-2">
+                    <li><a href="/products" class="dropdown-item">WD</a></li>
+                    <li><a href="/products" class="dropdown-item">Seagate</a></li>
+                  </ul>
+                </div>
+
+                <div>
+                  <div class="d-flex align-items-center" data-bs-toggle="dropdown">
+                    <span>Internet of Things</span>
+                    <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
+                  </div>
+
+                  <ul class="dropdown-menu p-2">
+                    <li><a href="/products" class="dropdown-item">Item 5</a></li>
+                  </ul>
+                </div>
+
+                <div>
+                  <div class="d-flex align-items-center" data-bs-toggle="dropdown">
+                    <span>Media Converter</span>
+                    <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
+                  </div>
+
+                  <ul class="dropdown-menu p-2">
+                    <li><a href="/products" class="dropdown-item">Item 6</a></li>
+                  </ul>
+                </div>
+
+                <div>
+                  <div class="d-flex align-items-center" data-bs-toggle="dropdown">
+                    <span>NVR</span>
+                    <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
+                  </div>
+
+                  <ul class="dropdown-menu p-2">
+                    <li><a href="/products" class="dropdown-item">Hikvision</a></li>
+                    <li><a href="/products" class="dropdown-item">Panasonic</a></li>
+                    <li><a href="/products" class="dropdown-item">ACTi</a></li>
+                    <li><a href="/products" class="dropdown-item">AMTEK</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
           </li>
 
           <li class="nav-item dropdown-navbar">
-            <a href="<?= base_url('/services'); ?>">Services</a>
+            <div>Services</div>
 
-            <div class="dropdown-navbar-content">
+            <div class="dropdown-navbar-content shadow">
               <div class="dropright">
-                <a href="<?= base_url('/services/#Construction'); ?>">Construction
-                  <i class="fa fa-angle-right" aria-hide="true"></i>
+                <a href="<?= base_url('services/#Construction'); ?>" class="d-flex align-items-center text-light-emphasis">
+                  <span>Construction</span>
+                  <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
                 </a>
 
-                <a href="<?= base_url('/services/#Implementation'); ?>">Implementation
-                  <i class="fa fa-angle-right" aria-hide="true"></i>
+                <a href="<?= base_url('/services/#Implementation'); ?>" class="d-flex align-items-center text-light-emphasis">
+                  <span>Implementation</span>
+                  <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
                 </a>
 
-                <a href="<?= base_url('/services/#Maintenance'); ?>">Maintenance & Service
-                  <i class="fa fa-angle-right" aria-hide="true"></i>
+                <a href="<?= base_url('/services/#Maintenance'); ?>" class="d-flex align-items-center text-light-emphasis">
+                  <span>Maintenance & Service</span>
+                  <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
                 </a>
 
-                <a href="<?= base_url('/services/#Rental'); ?>">Rental
-                  <i class="fa fa-angle-right" aria-hide="true"></i>
+                <a href="<?= base_url('/services/#Rental'); ?>" class="d-flex align-items-center text-light-emphasis">
+                  <span>Rental</span>
+                  <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
                 </a>
 
-                <a href="<?= base_url('/services/#Webdev'); ?>">Web Development
-                  <i class="fa fa-angle-right" aria-hide="true"></i>
+                <a href="<?= base_url('/services/#Webdev'); ?>" class="d-flex align-items-center text-light-emphasis">
+                  <span>Web Development</span>
+                  <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
                 </a>
               </div>
             </div>
