@@ -1,77 +1,198 @@
 <?= $this->extend('partials/template'); ?>
 <?= $this->section('content'); ?>
 
-<!-- About -->
-<div class="about_page">
-  <!-- Upper -->
-  <div class="up_bg">
-    <div class="upper">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="titlepage">
-              <h1>Products</h1>
-            </div>
-          </div>
+<main class="container">
+  <h1>hello world</h1>
 
-          <div class="col-md-12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ex eleifend mi mattis dapibus. Praesent lobortis eu quam sit amet aliquet. Integer mollis auctor malesuada.
-              Pellentesque aliquet, lacus nec ultricies dictum, augue arcu molestie elit, id efficitur lectus dui et mauris. Sed at mattis velit. Proin facilisis, lacus a viverra mattis, dui magna
-              varius nisl, quis accumsan justo lectus maximus sapien. In vel pharetra erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin tincidunt felis magna, ut dictum leo
-              vestibulum eget. Fusce ut purus et augue pellentesque ornare. <br>
-            </p>
-
-            <p>Phasellus tincidunt viverra gravida. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus iaculis, dui euismod fermentum tincidunt, neque metus
-              interdum leo, ac dignissim arcu lectus at ex. In lacinia neque vel sem dignissim rutrum. Curabitur ac vestibulum nibh. Nunc tristique ut libero vitae blandit. Curabitur leo nunc,
-              bibendum et laoreet in, rhoncus ut metus. Vivamus sit amet imperdiet purus, nec varius justo.
-            </p>
-          </div>
+  <div class="row position-relative" style="z-index: -1;">
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Seagate Skyhawk</h3>
+          <span class="badge text-bg-info">Harddisk</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
       </div>
     </div>
-  </div>
-  <!-- End of Upper -->
 
-  <!-- Banner -->
-  <div class="banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="banner">
-            <img src="<?= base_url('./images/banner.jpg'); ?>">
-          </div>
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">WD Purple</h3>
+          <span class="badge text-bg-info">Harddisk</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
       </div>
     </div>
-  </div>
-  <!-- End of Banner -->
 
-  <!-- Mid -->
-  <div class="mid_bg">
-    <div class="mid">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="desc_image">
-              <p>
-                Phasellus tincidunt viverra gravida. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus iaculis, dui euismod fermentum tincidunt, neque
-                metus interdum leo, ac dignissim arcu lectus at ex. In lacinia neque vel sem dignissim rutrum. Curabitur ac vestibulum nibh. Nunc tristique ut libero vitae blandit. Curabitur leo nunc,
-                bibendum et laoreet in, rhoncus ut metus. Vivamus sit amet imperdiet purus, nec varius justo. <br>
-              </p>
-
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ex eleifend mi mattis dapibus. Praesent lobortis eu quam sit amet aliquet. Integer mollis auctor malesuada.
-                Pellentesque aliquet, lacus nec ultricies dictum, augue arcu molestie elit, id efficitur lectus dui et mauris. Sed at mattis velit. Proin facilisis, lacus a viverra mattis, dui magna
-                varius nisl, quis accumsan justo lectus maximus sapien. In vel pharetra erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin tincidunt felis magna, ut dictum leo
-                vestibulum eget. Fusce ut purus et augue pellentesque ornare.
-              </p>
-            </div>
-          </div>
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Hikvision</h3>
+          <span class="badge text-bg-info">CCTV</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
       </div>
     </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Panasonic</h3>
+          <span class="badge text-bg-info">CCTV</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">ACTi</h3>
+          <span class="badge text-bg-info">CCTV</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">AMTEK</h3>
+          <span class="badge text-bg-info">CCTV</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Belden</h3>
+          <span class="badge text-bg-info">Cables</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">ANENG</h3>
+          <span class="badge text-bg-info">Grounding</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Dekko</h3>
+          <span class="badge text-bg-info">Grounding</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">KYORITSU</h3>
+          <span class="badge text-bg-info">Grounding</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Fluke</h3>
+          <span class="badge text-bg-info">Grounding</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Sanwa</h3>
+          <span class="badge text-bg-info">Grounding</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">SEW</h3>
+          <span class="badge text-bg-info">Grounding</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Hikvision</h3>
+          <span class="badge text-bg-info">NVR</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Panasonic</h3>
+          <span class="badge text-bg-info">NVR</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">ACTi</h3>
+          <span class="badge text-bg-info">NVR</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<?= base_url('/images/img2.png'); ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">AMTEK</h3>
+          <span class="badge text-bg-info">NVR</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+
   </div>
-  <!-- End of Mid -->
-</div>
-<!-- End of About Page -->
+</main>
 
 <?= $this->endSection(); ?>
