@@ -61,7 +61,9 @@
             <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Construction</h3>
             <p>
-              PT DUTA JARINGAN INDONESIA menawarkan jasa untuk membangun dan mendesain sebuah website untuk memenuhi kebutuhan bisnis Anda.
+              PT DUTA JARINGAN INDONESIA memberikan pelayanan dan solusi dalam sebuah bidang arsitektur sistem jaringan secara keseluruhan atau sebagian rangakaian kegiatan perencanaan dan atau
+              pelaksanaan beserta pengawasan yang mencakup pekerjaan aristektural mekanikal, elektrikal, dan tata lingkungan masing-masing beserta kelengkapannya untuk mewujudkan suatu bangunan atau
+              bentuk fisik lain.
             </p>
           </div>
         </div>
@@ -71,7 +73,8 @@
             <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Implementation</h3>
             <p>
-              PT DUTA JARINGAN INDONESIA menawarkan jasa untuk membangun dan mendesain sebuah website untuk memenuhi kebutuhan bisnis Anda.
+              PT DUTA JARINGAN INDONESIA menerapkan dan mewujudkan sebuah rencana yang
+              tersusun agar bisa berwujud secara nyata.
             </p>
           </div>
         </div>
@@ -81,7 +84,11 @@
             <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Maintenance & Service</h3>
             <p>
-              PT DUTA JARINGAN INDONESIA menawarkan jasa untuk membangun dan mendesain sebuah website untuk memenuhi kebutuhan bisnis Anda.
+              PT DUTA JARINGAN INDONESIA bergerak di bidang maintenance dan
+              service yaitu kegiatan memelihara dan menjaga fasilitas(properti)
+              yang ada serta memperbaiki, melakukan penyesuaian, atau penggantian
+              yang diperlukan untuk mendapatkan suatu kondisi yang sesuai dengan
+              perencanaan yang ada.
             </p>
           </div>
         </div>
@@ -91,7 +98,7 @@
             <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Rental</h3>
             <p>
-              PT DUTA JARINGAN INDONESIA menawarkan jasa untuk membangun dan mendesain sebuah website untuk memenuhi kebutuhan bisnis Anda.
+              PT DUTA JARINGAN INDONESIA menyewakan alat untuk memenuhi dan memberikan solusi pada customer.
             </p>
           </div>
         </div>
@@ -110,6 +117,49 @@
   </div>
 </section>
 <!-- end choose  section -->
+
+
+<!-- Product Section -->
+<section class="product">
+  <div class="container">
+    <h1 class="titlepage my-5 text-center">Our <span class="blu">Product</span></h1>
+
+    <div class="row mb-5 justify-content-center">
+      <div class="col-3">
+        <div class="card shadow rounded-4">
+          <img src="<?= base_url('/images/' . $produk[0]['gambar_produk']); ?>" alt="<?= $produk[0]['nama_produk']; ?>" class="card-img-top rounded-4">
+          <div class="card-body">
+            <h3 class="card-title fs-6"><?= $produk[0]['nama_produk']; ?></h3>
+            <p class="card-text">Rp. <?= $produk[0]['harga_produk']; ?></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card shadow rounded-4">
+          <img src="<?= base_url('/images/' . $produk[1]['gambar_produk']); ?>" alt="<?= $produk[1]['nama_produk']; ?>" class="card-img-top rounded-4">
+          <div class="card-body">
+            <h3 class="card-title fs-6"><?= $produk[1]['nama_produk']; ?></h3>
+            <p class="card-text">Rp. <?= $produk[1]['harga_produk']; ?></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card shadow rounded-4">
+          <img src="<?= base_url('/images/' . $produk[2]['gambar_produk']); ?>" alt="<?= $produk[2]['nama_produk']; ?>" class="card-img-top rounded-4">
+          <div class="card-body">
+            <h3 class="card-title fs-6"><?= $produk[2]['nama_produk']; ?></h3>
+            <p class="card-text">Rp. <?= $produk[2]['harga_produk']; ?></p>
+          </div>
+        </div>
+      </div>
+
+      <a href="<?= base_url('/products'); ?>">--> More</a>
+    </div>
+  </div>
+</section>
+<!-- End Product Section -->
 
 <!-- request -->
 <section id="contact" class="request py-5">
