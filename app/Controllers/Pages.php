@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\ProductModel;
+
 class Pages extends BaseController
 {
     public function index()
@@ -11,7 +13,11 @@ class Pages extends BaseController
             throw new \CodeIgniter\Exceptions\PageNotFoundException();
         }
 
-        $data = ['title' => 'Home']; // Capitalize the first letter
+        $products = new ProductModel();
+        $data = [
+            'title' => 'Home',
+            'produk' => $products->dataProduct()
+        ]; // Capitalize the first letter
         return view('pages/index', $data);
     }
 
@@ -27,10 +33,14 @@ class Pages extends BaseController
         return view('pages/' . $page);
     }
 
-    public function products($page = 'products')
+    public function products()
     {
-        $data['title'] = ucfirst($page);
-        return view('pages/' . $page);
+        $products = new ProductModel();
+        $data = [
+            'title' => 'Products',
+            'products' => $products->dataProduct()
+        ];
+        return view('pages/products', $data);
     }
 
     public function test($page = 'test')
