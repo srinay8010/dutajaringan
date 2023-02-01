@@ -46,16 +46,6 @@
       <div class="row justify-content-center">
         <h1 class="titlepage text-center mb-4">Our <span class="white"> Services</span></h1>
 
-        <!-- <div class="col-md-3 col-sm-12 pe-0">
-          <ul class="easy">
-            <li class="active"><a href="#">Construction</a></li>
-            <li><a href="#">Implementation</a></li>
-            <li><a href="#">Maintenance & Service</a></li>
-            <li><a href="#">Rental</a></li>
-            <li><a href="#">Web Development</a></li>
-          </ul>
-        </div> -->
-
         <div class="col-md-4 col-sm-12 px-1 mb-2">
           <div class="choose_box">
             <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
@@ -118,14 +108,13 @@
 </section>
 <!-- end choose  section -->
 
-
 <!-- Product Section -->
 <section class="product">
   <div class="container">
     <h1 class="titlepage my-5 text-center">Our <span class="blu">Product</span></h1>
 
     <div class="row mb-5 justify-content-center">
-      <div class="col-3">
+      <div class="col-2">
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/' . $produk[0]['gambar_produk']); ?>" alt="<?= $produk[0]['nama_produk']; ?>" class="card-img-top rounded-4">
           <div class="card-body">
@@ -135,7 +124,7 @@
         </div>
       </div>
 
-      <div class="col-3">
+      <div class="col-2">
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/' . $produk[1]['gambar_produk']); ?>" alt="<?= $produk[1]['nama_produk']; ?>" class="card-img-top rounded-4">
           <div class="card-body">
@@ -145,7 +134,7 @@
         </div>
       </div>
 
-      <div class="col-3">
+      <div class="col-2">
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/' . $produk[2]['gambar_produk']); ?>" alt="<?= $produk[2]['nama_produk']; ?>" class="card-img-top rounded-4">
           <div class="card-body">
@@ -155,7 +144,29 @@
         </div>
       </div>
 
-      <a href="<?= base_url('/products'); ?>">--> More</a>
+      <div class="col-2">
+        <div class="card shadow rounded-4">
+          <img src="<?= base_url('/images/' . $produk[3]['gambar_produk']); ?>" alt="<?= $produk[3]['nama_produk']; ?>" class="card-img-top rounded-4">
+          <div class="card-body">
+            <h3 class="card-title fs-6"><?= $produk[3]['nama_produk']; ?></h3>
+            <p class="card-text">Rp. <?= $produk[3]['harga_produk']; ?></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-2">
+        <div class="card shadow rounded-4">
+          <img src="<?= base_url('/images/' . $produk[4]['gambar_produk']); ?>" alt="<?= $produk[4]['nama_produk']; ?>" class="card-img-top rounded-4">
+          <div class="card-body">
+            <h3 class="card-title fs-6"><?= $produk[4]['nama_produk']; ?></h3>
+            <p class="card-text">Rp. <?= $produk[4]['harga_produk']; ?></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <a href="<?= base_url('/products'); ?>" class="btn btn-info mt-4" role="button">More Products <i class="fa fa-arrow-right"></i></a>
+      </div>
     </div>
   </div>
 </section>
