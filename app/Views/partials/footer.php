@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-5 col-12">
-        <h1 class="fs-2">Address </h1>
+        <h1 class="fs-2">Address</h1>
 
         <ul class="footer-location_icon">
           <li>PT Duta Jaringan Indonesia</li>
@@ -53,7 +53,7 @@
       </div>
 
       <div class="col-lg-4 col-md-9 col-12">
-        <h1 class="fs-2">Newsletter </h1>
+        <h1 class="fs-2">Newsletter</h1>
 
         <form action="" method="POST" class="footer-newsletter_form">
           <input type="text" name="Enter Your Email" class="footer-newsletter_form--input" placeholder="Enter Your Email">
