@@ -2,31 +2,61 @@
 <?= $this->section('content'); ?>
 
 <!-- About -->
-<div class="about_page">
-  <div class="abt_bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="titlepage">
-            <h1>Services</h1>
-          </div>
-        </div>
+<main class="container my-5">
+  <div class="row">
+    <div class="col-3">
+      <div class="list-group" id="list-tab" role="tablist">
+        <a href="#construction" class="list-group-item active" id="construction-list" data-bs-toggle="list" role="tab" aria-controls="list-construction">Construction</a>
 
-        <div class="col-md-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ex eleifend mi mattis dapibus. Praesent lobortis eu quam sit amet aliquet. Integer mollis auctor malesuada.
-            Pellentesque aliquet, lacus nec ultricies dictum, augue arcu molestie elit, id efficitur lectus dui et mauris. Sed at mattis velit. Proin facilisis, lacus a viverra mattis, dui magna
-            varius nisl, quis accumsan justo lectus maximus sapien. In vel pharetra erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin tincidunt felis magna, ut dictum leo
-            vestibulum eget. Fusce ut purus et augue pellentesque ornare. <br>
-          </p>
+        <a href="#implementation" class="list-group-item" id="implementation-list" data-bs-toggle="list" role="tab" aria-controls="list-implementation">Implementation</a>
 
-          <p>Phasellus tincidunt viverra gravida. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus iaculis, dui euismod fermentum tincidunt, neque metus
-            interdum leo, ac dignissim arcu lectus at ex. In lacinia neque vel sem dignissim rutrum. Curabitur ac vestibulum nibh. Nunc tristique ut libero vitae blandit. Curabitur leo nunc, bibendum
-            et laoreet in, rhoncus ut metus. Vivamus sit amet imperdiet purus, nec varius justo.
-          </p>
-        </div>
+        <a href="#maintenance" class="list-group-item" id="maintenance-list" data-bs-toggle="list" role="tab" aria-controls="list-maintenance">Maintenance & Services</a>
+
+        <a href="#rental" class="list-group-item" id="rental-list" data-bs-toggle="list" role="tab" aria-controls="list-rental">Rental</a>
+
+        <a href="#web-development" class="list-group-item" id="web-development-list" data-bs-toggle="list" role="tab" aria-controls="list-web-development">Web Development</a>
       </div>
     </div>
+
+    <article class="col-9">
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="construction" role="tabpanel" aria-labelledby="construction-list">
+          <h1 class="titlepage text-center">Construction</h1>
+
+          <p>PT DUTA JARINGAN INDONESIA memberikan pelayanan dan solusi dalam sebuah bidang arsitektur sistem jaringan secara keseluruhan atau sebagian rangakaian kegiatan perencanaan dan atau
+            pelaksanaan
+            beserta pengawasan yang mencakup pekerjaan aristektural mekanikal, elektrikal, dan tata lingkungan masing-masing beserta kelengkapannya untuk mewujudkan suatu bangunan atau bentuk fisik
+            lain.
+          </p>
+        </div>
+
+        <div class="tab-pane fade" id="implementation" role="tabpanel" aria-labelledby="implementation-list">
+          <h1 class="titlepage text-center">Implementation</h1>
+
+          <p>PT DUTA JARINGAN INDONESIA menerapkan dan mewujudkan sebuah rencana yang tersusun agar bisa berwujud secara nyata.</p>
+        </div>
+
+        <div class="tab-pane fade" id="maintenance" role="tabpanel" aria-labelledby="maintenance-list">
+          <h1 class="titlepage text-center">Maintenance & Service</h1>
+
+          <p>PT DUTA JARINGAN INDONESIA bergerak di bidang maintenance dan service yaitu kegiatan memelihara dan menjaga fasilitas(properti) yang ada serta memperbaiki, melakukan penyesuaian, atau
+            penggantian yang diperlukan untuk mendapatkan suatu kondisi yang sesuai dengan perencanaan yang ada.</p>
+        </div>
+
+        <div class="tab-pane fade" id="rental" role="tabpanel" aria-labelledby="rental-list">
+          <h1 class="titlepage text-center">Rental</h1>
+
+          <p>PT DUTA JARINGAN INDONESIA menyewakan alat untuk memenuhi dan memberikan solusi pada customer.</p>
+        </div>
+
+        <div class="tab-pane fade" id="web-development" role="tabpanel" aria-labelledby="web-developmentettings-list">
+          <h1 class="titlepage text-center">Web Development</h1>
+
+          <p>PT DUTA JARINGAN INDONESIA menawarkan jasa untuk membangun dan mendesain sebuah website untuk memenuhi kebutuhan bisnis Anda.</p>
+        </div>
+      </div>
+    </article>
   </div>
-</div>
+</main>
 
 <?= $this->endSection(); ?>
