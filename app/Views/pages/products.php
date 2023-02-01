@@ -6,8 +6,8 @@
 
   <div class="row row-cols-5 position-relative" style="z-index: -1;">
     <?php foreach($products as $product) : ?>
-    <div class="col">
-      <div class="card mb-3">
+    <div class="col mb-3">
+      <div class="card">
         <img src="<?= base_url('/images/' . $product['gambar_produk']); ?>" class="card-img-top" alt="<?= $product['nama_produk']; ?>">
         <div class="card-body">
           <h3 class="card-title fs-6"><?= $product['nama_produk']; ?></h3>
