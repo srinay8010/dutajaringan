@@ -143,27 +143,27 @@
 
             <div class="dropdown-navbar-content shadow">
               <div class="dropright">
-                <a href="<?= base_url('services/#Construction'); ?>" class="d-flex align-items-center text-light-emphasis">
+                <a href="<?= base_url('services/#construction'); ?>" class="d-flex align-items-center text-light-emphasis">
                   <span>Construction</span>
                   <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
                 </a>
 
-                <a href="<?= base_url('/services/#Implementation'); ?>" class="d-flex align-items-center text-light-emphasis">
+                <a href="<?= base_url('/services/#implementation'); ?>" class="d-flex align-items-center text-light-emphasis">
                   <span>Implementation</span>
                   <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
                 </a>
 
-                <a href="<?= base_url('/services/#Maintenance'); ?>" class="d-flex align-items-center text-light-emphasis">
+                <a href="<?= base_url('/services/#maintenance'); ?>" class="d-flex align-items-center text-light-emphasis">
                   <span>Maintenance & Service</span>
                   <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
                 </a>
 
-                <a href="<?= base_url('/services/#Rental'); ?>" class="d-flex align-items-center text-light-emphasis">
+                <a href="<?= base_url('/services/#rental'); ?>" class="d-flex align-items-center text-light-emphasis">
                   <span>Rental</span>
                   <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
                 </a>
 
-                <a href="<?= base_url('/services/#Webdev'); ?>" class="d-flex align-items-center text-light-emphasis">
+                <a href="<?= base_url('/services/#web-development'); ?>" class="d-flex align-items-center text-light-emphasis">
                   <span>Web Development</span>
                   <i class="fa fa-angle-right ms-auto" aria-hide="true"></i>
                 </a>
@@ -172,7 +172,7 @@
           </li>
 
           <a href="<?= base_url('/about'); ?>" class="nav-item">About</a>
-          <a href="#contact" class="nav-item">Contact</a>
+          <a href="/#contact" class="nav-item">Contact</a>
         </ul>
       </div>
     </div>
