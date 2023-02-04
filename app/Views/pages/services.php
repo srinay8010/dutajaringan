@@ -4,19 +4,17 @@
 <!-- About -->
 <main class="container my-5">
   <div class="row">
-    <div class="col-3">
-      <div class="list-group" id="list-tab" role="tablist">
-        <a href="#construction" class="list-group-item active" id="construction-list" data-bs-toggle="list" role="tab" aria-controls="list-construction">Construction</a>
+    <aside class="col-3 list-group" id="list-tab" role="tablist">
+      <a href="#construction" class="list-group-item active" id="construction-list" data-bs-toggle="list" role="tab" aria-controls="list-construction">Construction</a>
 
-        <a href="#implementation" class="list-group-item" id="implementation-list" data-bs-toggle="list" role="tab" aria-controls="list-implementation">Implementation</a>
+      <a href="#implementation" class="list-group-item" id="implementation-list" data-bs-toggle="list" role="tab" aria-controls="list-implementation">Implementation</a>
 
-        <a href="#maintenance" class="list-group-item" id="maintenance-list" data-bs-toggle="list" role="tab" aria-controls="list-maintenance">Maintenance & Services</a>
+      <a href="#maintenance" class="list-group-item" id="maintenance-list" data-bs-toggle="list" role="tab" aria-controls="list-maintenance">Maintenance & Services</a>
 
-        <a href="#rental" class="list-group-item" id="rental-list" data-bs-toggle="list" role="tab" aria-controls="list-rental">Rental</a>
+      <a href="#rental" class="list-group-item" id="rental-list" data-bs-toggle="list" role="tab" aria-controls="list-rental">Rental</a>
 
-        <a href="#web-development" class="list-group-item" id="web-development-list" data-bs-toggle="list" role="tab" aria-controls="list-web-development">Web Development</a>
-      </div>
-    </div>
+      <a href="#web-development" class="list-group-item" id="web-development-list" data-bs-toggle="list" role="tab" aria-controls="list-web-development">Web Development</a>
+    </aside>
 
     <article class="col-9">
       <div class="tab-content" id="nav-tabContent">
