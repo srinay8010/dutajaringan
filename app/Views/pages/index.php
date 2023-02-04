@@ -4,13 +4,14 @@
 <!-- banner -->
 <section class="banner">
   <div class="banner_bg">
-    <h1 class="banner_title">PT DUTA JARINGAN INDONESIA</h1>
+    <div class="banner_information">
+      <h1 class="banner_title">PT DUTA JARINGAN INDONESIA</h1>
 
-    <p class="banner_text">Bergerak di bidang teknologi, jaringan, jasa, dan perawatan properti kantor, hotel, dan rumah dengan didukung tenaga kerja yang profesional. Duta
-      Jaringan berdedikasi memberikan pelayanan yang terbaik untuk memenuhi kebutuhan para customer.</p>
+      <p class="banner_text">Bergerak di bidang teknologi, jaringan, jasa, dan perawatan properti kantor, hotel, dan rumah dengan didukung tenaga kerja yang profesional. Duta
+        Jaringan berdedikasi memberikan pelayanan yang terbaik untuk memenuhi kebutuhan para customer.</p>
+    </div>
   </div>
 </section>
-<!-- end banner -->
 
 <!-- about -->
 <!-- <section id="about" class="about">
@@ -37,7 +38,6 @@
     </div>
   </div>
 </section> -->
-<!-- end about -->
 
 <!-- choose  section -->
 <section class="choose">
@@ -106,7 +106,6 @@
     </div>
   </div>
 </section>
-<!-- end choose  section -->
 
 <!-- Product Section -->
 <section class="product">
@@ -116,50 +115,80 @@
     <div class="row mb-5 justify-content-center">
       <div class="col-2">
         <div class="card shadow rounded-4">
-          <img src="<?= base_url('/images/' . $produk[0]['gambar_produk']); ?>" alt="<?= $produk[0]['nama_produk']; ?>" class="card-img-top rounded-4">
+          <img src="<?= base_url('/images/products/' . $produk[0]->gambar_produk); ?>" alt="<?= $produk[0]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
-            <h3 class="card-title fs-6"><?= $produk[0]['nama_produk']; ?></h3>
-            <p class="card-text">Rp. <?= $produk[0]['harga_produk']; ?></p>
+            <h3 class="card-title fs-6"><?= $produk[0]->nama_produk; ?></h3>
+            <p class="card-text">
+              <?php
+                $fmt = numfmt_create( 'id_ID', NumberFormatter::CURRENCY );
+                $fmt->setAttribute(NumberFormatter::MAX_FRACTION_DIGITS, 0);
+                echo numfmt_format_currency($fmt, $produk[0]->harga_produk, "IDR");
+              ?>
+            </p>
           </div>
         </div>
       </div>
 
       <div class="col-2">
         <div class="card shadow rounded-4">
-          <img src="<?= base_url('/images/' . $produk[1]['gambar_produk']); ?>" alt="<?= $produk[1]['nama_produk']; ?>" class="card-img-top rounded-4">
+          <img src="<?= base_url('/images/products/' . $produk[1]->gambar_produk); ?>" alt="<?= $produk[1]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
-            <h3 class="card-title fs-6"><?= $produk[1]['nama_produk']; ?></h3>
-            <p class="card-text">Rp. <?= $produk[1]['harga_produk']; ?></p>
+            <h3 class="card-title fs-6"><?= $produk[1]->nama_produk; ?></h3>
+            <p class="card-text">
+              <?php
+                $fmt = numfmt_create( 'id_ID', NumberFormatter::CURRENCY );
+                $fmt->setAttribute(NumberFormatter::MAX_FRACTION_DIGITS, 0);
+                echo numfmt_format_currency($fmt, $produk[1]->harga_produk, "IDR");
+              ?>
+            </p>
           </div>
         </div>
       </div>
 
       <div class="col-2">
         <div class="card shadow rounded-4">
-          <img src="<?= base_url('/images/' . $produk[2]['gambar_produk']); ?>" alt="<?= $produk[2]['nama_produk']; ?>" class="card-img-top rounded-4">
+          <img src="<?= base_url('/images/products/' . $produk[2]->gambar_produk); ?>" alt="<?= $produk[2]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
-            <h3 class="card-title fs-6"><?= $produk[2]['nama_produk']; ?></h3>
-            <p class="card-text">Rp. <?= $produk[2]['harga_produk']; ?></p>
+            <h3 class="card-title fs-6"><?= $produk[2]->nama_produk; ?></h3>
+            <p class="card-text">
+              <?php
+                $fmt = numfmt_create( 'id_ID', NumberFormatter::CURRENCY );
+                $fmt->setAttribute(NumberFormatter::MAX_FRACTION_DIGITS, 0);
+                echo numfmt_format_currency($fmt, $produk[2]->harga_produk, "IDR");
+              ?>
+            </p>
           </div>
         </div>
       </div>
 
       <div class="col-2">
         <div class="card shadow rounded-4">
-          <img src="<?= base_url('/images/' . $produk[3]['gambar_produk']); ?>" alt="<?= $produk[3]['nama_produk']; ?>" class="card-img-top rounded-4">
+          <img src="<?= base_url('/images/products/' . $produk[3]->gambar_produk); ?>" alt="<?= $produk[3]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
-            <h3 class="card-title fs-6"><?= $produk[3]['nama_produk']; ?></h3>
-            <p class="card-text">Rp. <?= $produk[3]['harga_produk']; ?></p>
+            <h3 class="card-title fs-6"><?= $produk[3]->nama_produk; ?></h3>
+            <p class="card-text">
+              <?php
+                $fmt = numfmt_create( 'id_ID', NumberFormatter::CURRENCY );
+                $fmt->setAttribute(NumberFormatter::MAX_FRACTION_DIGITS, 0);
+                echo numfmt_format_currency($fmt, $produk[3]->harga_produk, "IDR");
+              ?>
+            </p>
           </div>
         </div>
       </div>
 
       <div class="col-2">
         <div class="card shadow rounded-4">
-          <img src="<?= base_url('/images/' . $produk[4]['gambar_produk']); ?>" alt="<?= $produk[4]['nama_produk']; ?>" class="card-img-top rounded-4">
+          <img src="<?= base_url('/images/products/' . $produk[4]->gambar_produk); ?>" alt="<?= $produk[4]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
-            <h3 class="card-title fs-6"><?= $produk[4]['nama_produk']; ?></h3>
-            <p class="card-text">Rp. <?= $produk[4]['harga_produk']; ?></p>
+            <h3 class="card-title fs-6"><?= $produk[4]->nama_produk; ?></h3>
+            <p class="card-text">
+              <?php
+                $fmt = numfmt_create( 'id_ID', NumberFormatter::CURRENCY );
+                $fmt->setAttribute(NumberFormatter::MAX_FRACTION_DIGITS, 0);
+                echo numfmt_format_currency($fmt, $produk[4]->harga_produk, "IDR");
+              ?>
+            </p>
           </div>
         </div>
       </div>
@@ -170,7 +199,6 @@
     </div>
   </div>
 </section>
-<!-- End Product Section -->
 
 <!-- request -->
 <section id="contact" class="request py-5">
@@ -185,7 +213,7 @@
           <input class="contactus" placeholder="Phone Number" type="tel" name="Phone Number">
           <textarea class="textarea" placeholder="Message" Message="Name" rows="4"></textarea>
 
-          <button class="send_btn">Send</button>
+          <button type="button" class="send_btn">Send <i class="fa-regular fa-paper-plane ms-1"></i></button>
         </form>
       </div>
 
@@ -195,6 +223,71 @@
     </div>
   </div>
 </section>
-<!-- end request -->
 
+<?= $this->endSection(); ?>
+
+<?= $this->section('script'); ?>
+
+<script>
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 16,
+    center: {
+      lat: -6.2508198,
+      lng: 106.9780609
+    },
+  });
+
+  var image = 'images/maps-and-flags.png';
+  var beachMarker = new google.maps.Marker({
+    position: {
+      lat: -6.2508198,
+      lng: 106.9780609
+    },
+    map: map,
+    icon: image
+  });
+}
+</script>
+
+<!-- google map js -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+<!-- end google map js -->
+
+<script>
+var url = '<?= base_url('./js/shopifyWidget.js'); ?>';
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true;
+s.src = url;
+var options = {
+  "enabled": true,
+  "chatButtonSetting": {
+    "backgroundColor": "#4dc247",
+    "ctaText": "",
+    "borderRadius": "25",
+    "marginLeft": "0",
+    "marginBottom": "50",
+    "marginRight": "50",
+    "position": "right"
+  },
+  "brandSetting": {
+    "brandName": "PT DUTA JARINGAN INDONESIA",
+    "brandSubTitle": "Typically replies within a day",
+    "brandImg": "<?= base_url('./images/logo.png'); ?>",
+    "welcomeText": "Hi there!\nHow can I help you?",
+    "messageText": "Hello, I have a question about your products and services",
+    "backgroundColor": "#0a5f54",
+    "ctaText": "Start Chat",
+    "borderRadius": "25",
+    "autoShow": false,
+    "phoneNumber": "62383499425"
+  }
+};
+s.onload = function() {
+  CreateWhatsappChatWidget(options);
+};
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+</script>
 <?= $this->endSection(); ?>
