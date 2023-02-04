@@ -2,22 +2,33 @@
 <?= $this->section('content'); ?>
 
 <main class="container">
-  <h1 class="my-4">Products</h1>
+  <h1 class="my-4 text-center">Products</h1>
 
-  <div class="row row-cols-5 position-relative" style="z-index: -1;">
-    <?php foreach($products as $product) : ?>
-    <div class="col mb-3">
-      <div class="card">
-        <img src="<?= base_url('/images/' . $product['gambar_produk']); ?>" class="card-img-top" alt="<?= $product['nama_produk']; ?>">
-        <div class="card-body">
-          <h3 class="card-title fs-6"><?= $product['nama_produk']; ?></h3>
-          <span class="badge text-bg-info m-2 position-absolute top-0 bg-opacity-50" style="left: 0;"><?= $product['jenis_produk']; ?></span>
-          <p class="card-text">Rp. <?= $product['harga_produk']; ?></p>
-        </div>
+  <div class="row">
+
+
+    <div class="card-product col-9 row row-cols-5 position-relative">
+      <?php foreach($products as $product) : ?>
+      <div class="product-item col mb-3" data-product="<?= $product->jenis_produk . ' ' . $product->merek_produk; ?>">
+        <a href="/product/<?= $product->id; ?>/detail">
+          <div class="card shadow-sm">
+            <img src="<?= base_url('/images/products/' . $product->gambar_produk); ?>" class="card-img-top" alt="<?= $product->nama_produk; ?>">
+            <div class="card-body">
+              <h3 class="card-title fs-6"><?= $product->nama_produk; ?></h3>
+              <span class="badge text-bg-info m-2 position-absolute top-0 bg-opacity-50" style="left: 0;"><?= $product->jenis_produk; ?></span>
+              <p class="card-text">
+                <?php
+                  $fmt = numfmt_create( 'id_ID', NumberFormatter::CURRENCY );
+                  $fmt->setAttribute(NumberFormatter::MAX_FRACTION_DIGITS, 0);
+                  echo numfmt_format_currency($fmt, $product->harga_produk, "IDR");
+                ?>
+              </p>
+            </div>
+          </div>
+        </a>
       </div>
+      <?php endforeach; ?>
     </div>
-    <?php endforeach; ?>
-
   </div>
 </main>
 
