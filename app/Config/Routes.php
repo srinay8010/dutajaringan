@@ -38,7 +38,8 @@ $routes->set404Override();
 $routes->get('/', 'Pages::index');
 $routes->get('/about', 'Pages::about');
 $routes->get('/services', 'Pages::services');
-$routes->get('/products', 'Pages::products');
+$routes->get('/products', 'ProductController::products');
+$routes->get('/product/(:any)/detail', 'ProductController::productDetail/$1');
 $routes->get('/test', 'Pages::test');
 
 
