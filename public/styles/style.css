@@ -13,15 +13,8 @@
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
 @import url(animate.min.css);
-@import url(icomoon.css);
 @import url(font-awesome.min.css);
-@import url(meanmenu.css);
 @import url(owl.carousel.min.css);
-@import url(swiper.min.css);
-@import url(slick.css);
-@import url(jquery.fancybox.min.css);
-@import url(jquery-ui.css);
-@import url(nice-select.css);
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
@@ -170,6 +163,10 @@ button {
   color: var(--white-color);
 }
 
+.navbar {
+  min-height: 10vh;
+}
+
 .card {
   --bs-card-height: 100%;
 }
@@ -187,6 +184,7 @@ button {
 .list-group-item.active {
   border-color: var(--blue-color);
   background-color: var(--blue-color);
+  z-index: 0;
 }
 
 /**-- heading section --**/
@@ -215,156 +213,6 @@ button {
 .loader img {
   width: 280px;
 }
-
-/*-- menu_sitbar--*/
-
-.menu_sitbar {
-  float: left;
-  width: 120px;
-  height: 100vh;
-  background: #0808ff;
-  border-right: var(--white-color) solid 7px;
-  padding: 33px;
-}
-
-.logo_side img {
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: var(--white-color);
-  line-height: 40px;
-
-  padding-right: 16px;
-  padding-top: 10px;
-}
-
-#sidebar {
-  width: 200px;
-  position: fixed;
-  top: 0;
-  left: -280px;
-  height: 100vh;
-  z-index: 1000;
-  background: var(--white-color);
-  color: var(--white-color);
-  transition: all 0.3s;
-  overflow-y: scroll;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
-}
-
-#sidebar.active {
-  left: 0;
-}
-
-#dismiss {
-  width: 35px;
-  height: 35px;
-  line-height: 34px;
-  text-align: center;
-  background: var(--black-color);
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-#dismiss:hover {
-  background: #35bff8;
-  color: var(--white-color);
-}
-
-.overlay {
-  display: none;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 998;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-}
-
-.overlay.active {
-  display: block;
-  opacity: 1;
-}
-
-#sidebarCollapse {
-  background: transparent;
-  padding: 0;
-  border: none;
-}
-
-#sidebar .sidebar-header {
-  padding: 20px;
-  background: #0808ff;
-}
-
-#sidebar ul.components {
-  padding: 25px 0;
-}
-
-#sidebar ul p {
-  color: var(--white-color);
-  padding: 10px;
-}
-
-#sidebar ul li a {
-  padding: 10px 25px;
-  font-size: 1.3em;
-  display: block;
-  font-weight: 500;
-}
-
-#sidebar ul li a:hover {
-  color: var(--white-color);
-  background: #35bff8;
-}
-
-#sidebar ul li.active > a,
-a[aria-expanded="true"] {
-  background: transparent;
-}
-
-a[data-toggle="collapse"] {
-  position: relative;
-}
-
-.dropdown-toggle::after {
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-}
-
-ul.CTAs {
-  padding: 20px;
-}
-
-ul.CTAs a {
-  text-align: center;
-  font-size: 0.9em !important;
-  display: block;
-  border-radius: 5px;
-  margin-bottom: 5px;
-}
-
-a.download {
-  background: var(--white-color);
-  color: #7386d5;
-}
-
-a.article,
-a.article:hover {
-  background: #6d7fcc !important;
-  color: var(--white-color) !important;
-}
-
-/*--end menu_sitbar--*/
 
 ul.btn {
   float: right;
@@ -607,27 +455,34 @@ body.open .navbar-menu {
 
 /** banner section **/
 
-.banner_bg {
-  padding-block: 14rem;
+.banner .banner_bg {
+  width: 100%;
+  min-height: 90vh;
   background: url(../images/iot.jpg) no-repeat;
   background-size: cover;
   position: relative;
   z-index: -9;
 }
 
-.banner_title {
-  margin-top: -11rem;
-  margin-right: 8rem;
+.banner .banner_bg .banner_information {
+  border-radius: 1rem;
+  padding: 1rem;
+  width: min(100%, 50vw);
+  position: relative;
+  transform: translate(85%, 50%);
+  backdrop-filter: blur(0.5rem);
+}
+
+.banner .banner_bg .banner_information .banner_title {
   color: var(--white-color);
   position: relative;
-  float: right;
   text-shadow: 0 0 10px var(--white-color), 0 0 15px var(--black-color);
 }
 
-.banner_title::before {
+.banner .banner_bg .banner_information .banner_title::before {
   content: "";
   margin-bottom: -0.5rem;
-  width: 35rem;
+  width: min(100%, 43vw);
   height: 5px;
   background-color: #382d3c;
   position: absolute;
@@ -635,17 +490,11 @@ body.open .navbar-menu {
   bottom: 0;
 }
 
-.banner_text {
-  margin-top: -5rem;
-  margin-right: 8rem;
+.banner .banner_bg .banner_information .banner_text {
   padding: 1.25rem;
   color: var(--white-color);
-  background-color: rgba(255, 255, 255, 0.1);
-  width: 45vw;
-  float: right;
   font-size: 1.1rem;
   line-height: 2rem;
-  backdrop-filter: blur(1rem);
 }
 
 /** banner section **/
@@ -816,7 +665,7 @@ body.open .navbar-menu {
 
 .main_form .send_btn {
   font-size: 17px;
-  transition: ease-in all 0.5s;
+  transition: 0.2s ease-in;
   background-color: var(--white-color);
   color: var(--black-color);
   padding: 13px 0px;
@@ -829,7 +678,6 @@ body.open .navbar-menu {
 
 .main_form .send_btn:hover {
   background-color: #191e20;
-  transition: ease-in all 0.5s;
   color: var(--white-color);
 }
 
@@ -869,7 +717,30 @@ body.open .navbar-menu {
 }
 /** end about page **/
 
-/** footer **/
+/**
+  * Detail Product Page
+  *
+*/
+
+.product-detail hr {
+  border-color: var(--blue-color-2);
+}
+
+.product-detail .price {
+  padding: 0.75rem 0.5rem;
+  border: 1px solid gainsboro;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.product-detail .description p {
+  text-align: justify;
+}
+
+/**
+  * Footer 
+  *
+*/
 
 .footer {
   padding-top: 2.5rem;
