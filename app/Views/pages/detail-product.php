@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-5">
       <picture class="d-flex justify-content-center">
-        <img src="<?= base_url('images/products/' . $product->gambar_produk); ?>" alt="<?= $product->nama_produk; ?>" class="w-75">
+        <img src="<?= base_url('images/products/' . $product->gambar_produk); ?>" alt="<?= $product->nama_produk; ?>" class="product-image w-75">
       </picture>
     </div>
 
@@ -21,10 +21,10 @@
         <div class="description my-3">
           <h4 class="text-dark">Deskripsi</h4>
 
-          <p class="fw-normal"><?= $product->deskripsi_produk; ?></p>
+          <div><?= $product->deskripsi_produk; ?></div>
         </div>
 
-        <button type="button" class="bg-body">
+        <button type="button" class="bg-transparent">
           <a href="https://api.whatsapp.com/send?phone=62383499425&amp;text=Hello, I have a question about your products and services" role="button" target="_blank" title="WhatsApp"
              class="wa-chat-box-content-send-btn m-0 px-4"><i class="fa-brands fa-whatsapp me-2"></i> Beli
           </a>
