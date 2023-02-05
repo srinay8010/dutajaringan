@@ -6,13 +6,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="keywords" content="duta jaringan, jaringan, web development, IT consultant">
+    <meta name="description" content="Duta Jaringan bergerak di bidang teknologi, jaringan, jasa, dan perawatan properti kantor, hotel, dan rumah dengan didukung tenaga kerja yang profesional.">
+    <meta name="author" content="Duta Jaringan Dev">
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="<?= base_url('./styles/owl.carousel.min.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('./styles/owl.theme.default.min.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('./styles/bootstrap.min.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('./styles/style.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('./styles/responsive.css'); ?>">
@@ -38,32 +36,46 @@
     <script src="<?= base_url('./js/popper.min.js'); ?>"></script>
     <script src="<?= base_url('./js/bootstrap.bundle.min.js'); ?>"></script>
     <script src="<?= base_url('./js/jquery-3.0.0.min.js'); ?>"></script>
-    <script src="<?= base_url('./js/owl.carousel.js'); ?>"></script>
-    <script src="<?= base_url('./js/owl.carousel.min.js'); ?>"></script>
     <script src="<?= base_url('./js/custom.js'); ?>"></script>
 
     <?= $this->renderSection('script'); ?>
 
+
     <script>
-    $('.owl-carousel').owlCarousel({
-      items: 4,
-      loop: true,
-      autoplay: true,
-      autoplayTimeout: 3000,
-      autoplayHoverPause: true,
-      margin: 10,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 1
-        },
-        1000: {
-          items: 1
-        }
+    var url = '<?= base_url('./js/shopifyWidget.js'); ?>';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+      "enabled": true,
+      "chatButtonSetting": {
+        "backgroundColor": "#4dc247",
+        "ctaText": "",
+        "borderRadius": "25",
+        "marginLeft": "0",
+        "marginBottom": "50",
+        "marginRight": "50",
+        "position": "right"
+      },
+      "brandSetting": {
+        "brandName": "PT DUTA JARINGAN INDONESIA",
+        "brandSubTitle": "Typically replies within a day",
+        "brandImg": "<?= base_url('./images/logo.png'); ?>",
+        "welcomeText": "Hi there!\nHow can I help you?",
+        "messageText": "Hello, I have a question about your products and services",
+        "backgroundColor": "#0a5f54",
+        "ctaText": "Start Chat",
+        "borderRadius": "25",
+        "autoShow": false,
+        "phoneNumber": "62383499425"
       }
-    })
+    };
+    s.onload = function() {
+      CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
     </script>
   </body>
 
