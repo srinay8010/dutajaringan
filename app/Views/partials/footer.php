@@ -2,8 +2,8 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-5 col-12">
-        <h1 class="fs-2">Address</h1>
+      <div class="col-12 col-lg-5 my-3">
+        <h1>Address</h1>
 
         <ul class="footer-location_icon">
           <li>PT Duta Jaringan Indonesia</li>
@@ -11,8 +11,8 @@
         </ul>
       </div>
 
-      <div class="col-lg-3 col-md-3 col-12">
-        <h1 class="fs-2">Follow Us</h1>
+      <div class="col-12 col-sm-5 col-lg-3 my-3">
+        <h1>Follow Us</h1>
 
         <ul class="footer-social_icon">
           <li>
@@ -52,8 +52,8 @@
         </ul>
       </div>
 
-      <div class="col-lg-4 col-md-9 col-12">
-        <h1 class="fs-2">Newsletter</h1>
+      <div class="col-12 col-sm-7 col-lg-4 my-3">
+        <h1>Newsletter</h1>
 
         <form action="" method="POST" class="footer-newsletter_form">
           <input type="text" name="Enter Your Email" class="footer-newsletter_form--input" placeholder="Enter Your Email">

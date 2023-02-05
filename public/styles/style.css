@@ -163,6 +163,10 @@ button {
   color: var(--white-color);
 }
 
+.max-height {
+  height: max-content;
+}
+
 .navbar {
   min-height: 10vh;
 }
@@ -456,8 +460,11 @@ body.open .navbar-menu {
 /** banner section **/
 
 .banner .banner_bg {
+  padding-top: 1rem;
   width: 100%;
   min-height: 90vh;
+  display: flex;
+  align-items: center;
   background: url(../images/iot.jpg) no-repeat;
   background-size: cover;
   position: relative;
@@ -465,12 +472,10 @@ body.open .navbar-menu {
 }
 
 .banner .banner_bg .banner_information {
+  margin: 1rem;
   border-radius: 1rem;
-  padding: 1rem;
-  width: min(100%, 50vw);
   position: relative;
-  transform: translate(85%, 50%);
-  backdrop-filter: blur(0.5rem);
+  backdrop-filter: blur(0.3rem);
 }
 
 .banner .banner_bg .banner_information .banner_title {
@@ -718,9 +723,41 @@ body.open .navbar-menu {
 /** end about page **/
 
 /**
+  * Product Page
+  *
+*/
+
+/* .checkbox-filter {
+  margin-right: 2rem;
+}
+
+.card-product.row,
+.card-product.row > * {
+  padding-inline: 0;
+}
+
+.card-product .product-item {
+  flex: 0 0 auto;
+  width: 19%;
+} */
+
+.card-product .product-item .card .card-body .card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+}
+
+/**
   * Detail Product Page
   *
 */
+
+.product-image {
+  mix-blend-mode: multiply;
+}
 
 .product-detail hr {
   border-color: var(--blue-color-2);
@@ -735,6 +772,11 @@ body.open .navbar-menu {
 
 .product-detail .description p {
   text-align: justify;
+  font-weight: normal;
+}
+
+.product-detail .description ul li {
+  list-style: inside;
 }
 
 /**

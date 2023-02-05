@@ -46,7 +46,7 @@
       <div class="row justify-content-center">
         <h1 class="titlepage text-center mb-4">Our <span class="white"> Services</span></h1>
 
-        <div class="col-md-4 col-sm-12 px-1 mb-2">
+        <div class="col-sm-6 col-md-4 px-3 px-md-1 mb-2">
           <div class="choose_box">
             <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Construction</h3>
@@ -58,7 +58,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-12 px-1 mb-2">
+        <div class="col-sm-6 col-md-4 px-3 px-md-1 mb-2">
           <div class="choose_box">
             <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Implementation</h3>
@@ -69,7 +69,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-12 px-1 mb-2">
+        <div class="col-sm-6 col-md-4 px-3 px-md-1 mb-2">
           <div class="choose_box">
             <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Maintenance & Service</h3>
@@ -83,7 +83,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-12 px-1 mb-2">
+        <div class="col-sm-6 col-md-4 px-3 px-md-1 mb-2">
           <div class="choose_box">
             <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Rental</h3>
@@ -93,7 +93,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-12 px-1 mb-2">
+        <div class="col-sm-6 col-md-4 px-3 px-md-1 mb-2">
           <div class="choose_box">
             <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Web Development</h3>
@@ -113,7 +113,7 @@
     <h1 class="titlepage my-5 text-center">Our <span class="blu">Product</span></h1>
 
     <div class="row mb-5 justify-content-center">
-      <div class="col-2">
+      <div class="col-6 col-md-4 col-lg-2 mb-3">
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/products/' . $produk[0]->gambar_produk); ?>" alt="<?= $produk[0]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
@@ -129,7 +129,7 @@
         </div>
       </div>
 
-      <div class="col-2">
+      <div class="col-6 col-md-4 col-lg-2 mb-3">
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/products/' . $produk[1]->gambar_produk); ?>" alt="<?= $produk[1]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
@@ -145,7 +145,7 @@
         </div>
       </div>
 
-      <div class="col-2">
+      <div class="col-6 col-md-4 col-lg-2 mb-3">
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/products/' . $produk[2]->gambar_produk); ?>" alt="<?= $produk[2]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
@@ -161,7 +161,7 @@
         </div>
       </div>
 
-      <div class="col-2">
+      <div class="col-6 col-md-4 col-lg-2 mb-3">
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/products/' . $produk[3]->gambar_produk); ?>" alt="<?= $produk[3]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
@@ -177,7 +177,7 @@
         </div>
       </div>
 
-      <div class="col-2">
+      <div class="col-6 col-md-4 col-lg-2 mb-3">
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/products/' . $produk[4]->gambar_produk); ?>" alt="<?= $produk[4]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
@@ -254,40 +254,4 @@ function initMap() {
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
 <!-- end google map js -->
 
-<script>
-var url = '<?= base_url('./js/shopifyWidget.js'); ?>';
-var s = document.createElement('script');
-s.type = 'text/javascript';
-s.async = true;
-s.src = url;
-var options = {
-  "enabled": true,
-  "chatButtonSetting": {
-    "backgroundColor": "#4dc247",
-    "ctaText": "",
-    "borderRadius": "25",
-    "marginLeft": "0",
-    "marginBottom": "50",
-    "marginRight": "50",
-    "position": "right"
-  },
-  "brandSetting": {
-    "brandName": "PT DUTA JARINGAN INDONESIA",
-    "brandSubTitle": "Typically replies within a day",
-    "brandImg": "<?= base_url('./images/logo.png'); ?>",
-    "welcomeText": "Hi there!\nHow can I help you?",
-    "messageText": "Hello, I have a question about your products and services",
-    "backgroundColor": "#0a5f54",
-    "ctaText": "Start Chat",
-    "borderRadius": "25",
-    "autoShow": false,
-    "phoneNumber": "62383499425"
-  }
-};
-s.onload = function() {
-  CreateWhatsappChatWidget(options);
-};
-var x = document.getElementsByTagName('script')[0];
-x.parentNode.insertBefore(s, x);
-</script>
 <?= $this->endSection(); ?>
