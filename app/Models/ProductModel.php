@@ -25,51 +25,154 @@
       ],
       [
         'id' => 2,
-        'nama_produk' => 'WD Purple',
+        'nama_produk' => 'HARDDISK WD PURPLE 2TB CCTV',
         'merek_produk' => 'WD',
         'jenis_produk' => 'Harddisk',
-        'gambar_produk' => 'skyhawk.jpg',
-        'harga_produk' => 100000,
-        'deskripsi_produk' => 'Seagate SkyHawk sangat sesuai untuk menjalankan Aplikasi DVR dan NVR pengawasan UKM.
+        'gambar_produk' => 'wd-purple-2tb-cctv.jpg',
+        'harga_produk' => 550000,
+        'deskripsi_produk' => '
+          <p>HARD DISK Khusus untuk CCTV/Rakitan Computer<br />
+          Hard Disk 2TB / 2000 Tera WDC Blue/Purple<br />
+          Daya tahan lama<br />
+          24 jam non-stop record<br />
+          5400 RPM</p>
 
-            Dioptimalkan untuk DVR dan NVR, hard disk pengawasan SkyHawk disesuaikan untuk beban kerja 24/7 dalam kapasitas hingga 10 TB. Dilengkapi dengan firmware ImagePerfect yang semakin baik,
-            SkyHawk membantu mengurangi bingkai yang hilang dan waktu lumpuh dengan 3 kali peringkat beban kerja dari hard disk desktop dan siap merekam hingga 90% dari waktu sekaligus mendukung
-            hingga 64 kamera HD.
-
-            Firmware ImagePerfect SkyHawk memungkinkan streaming video yang lancar dan jelas untuk lingkungan pengawasan 24/7 yang selalu nyala membantu untuk memastikan bisnis Anda mendapatkan
-            lapisan perlindungan yang hebat.'
+          <p>Dirancang khusus untuk CCTV:</p>
+            <ul>
+              <li>CCTV Analog (DVR)</li>
+              <li>CCTV AHD (DVR AHD)</li>
+              <li>IP Camera (NVR)</li>
+            </ul>
+          <p>Kemampuan rekaman lebih baik dibandingkan dengan harddisk pada umumnya</p>
+        '
       ],
       [
         'id' => 3,
-        'nama_produk' => 'Hikvision',
+        'nama_produk' => 'CCTV Hikvision DS-2CE16D0T-EXIPF 2MP Outdoor',
         'merek_produk' => 'Hikvision',
         'jenis_produk' => 'CCTV',
-        'gambar_produk' => 'skyhawk.jpg',
-        'harga_produk' => 100000,
-        'deskripsi_produk' => 'Seagate SkyHawk sangat sesuai untuk menjalankan Aplikasi DVR dan NVR pengawasan UKM.
-
-            Dioptimalkan untuk DVR dan NVR, hard disk pengawasan SkyHawk disesuaikan untuk beban kerja 24/7 dalam kapasitas hingga 10 TB. Dilengkapi dengan firmware ImagePerfect yang semakin baik,
-            SkyHawk membantu mengurangi bingkai yang hilang dan waktu lumpuh dengan 3 kali peringkat beban kerja dari hard disk desktop dan siap merekam hingga 90% dari waktu sekaligus mendukung
-            hingga 64 kamera HD.
-
-            Firmware ImagePerfect SkyHawk memungkinkan streaming video yang lancar dan jelas untuk lingkungan pengawasan 24/7 yang selalu nyala membantu untuk memastikan bisnis Anda mendapatkan
-            lapisan perlindungan yang hebat.'
+        'gambar_produk' => 'CCTV-Hikvision DS-2CE16D0T.webp',
+        'harga_produk' => 276000,
+        'deskripsi_produk' => '
+          <h5>Fitur</h5>
+          <ul>
+            <li>2MP CMOS Sensor</li>
+            <li>1 PCS EXIR LED</li>
+            <li>20M IR (Smart IR)</li>
+            <li>Indoor EXIR Turret</li>
+            <li>DNR,ICR, 0.02 Lux/F1.2</li>
+            <li>12 VDC</li>
+            <li>IP66</li>
+            <li>4 IN1 (4 signals Switchable TVI/AHD/CVI/CVBS)</li>
+          </ul>
+        '
+      ],
+      [
+        'id' => 3.2,
+        'nama_produk' => 'CCTV Hikvision DS-2CE76D0T-EXIPF Indoor',
+        'merek_produk' => 'Hikvision',
+        'jenis_produk' => 'CCTV',
+        'gambar_produk' => 'Hikvision-Turbo-HD-DS-2CE76D0T-EXIMF.webp',
+        'harga_produk' => 253000,
+        'deskripsi_produk' => '
+          <h5>Fitur</h5>
+          <ul>
+            <li>2MP CMOS Sensor</li>
+            <li>1 PCS EXIR LED</li>
+            <li>20M IR (Smart IR)</li>
+            <li>Indoor EXIR Turret</li>
+            <li>DNR,ICR, 0.02 Lux/F1.2</li>
+            <li>12 VDC</li>
+            <li>4 IN1 (4 signals Switchable TVI/AHD/CVI/CVBS)</li>
+          </ul>
+        '
       ],
       [
         'id' => 4,
-        'nama_produk' => 'Panasonic',
+        'nama_produk' => 'Panasonic CV-CPW103L / CV-CPW103AL OUTDOOR CCTV',
         'merek_produk' => 'Panasonic',
         'jenis_produk' => 'CCTV',
-        'gambar_produk' => 'skyhawk.jpg',
-        'harga_produk' => 100000,
-        'deskripsi_produk' => 'Seagate SkyHawk sangat sesuai untuk menjalankan Aplikasi DVR dan NVR pengawasan UKM.
-
-            Dioptimalkan untuk DVR dan NVR, hard disk pengawasan SkyHawk disesuaikan untuk beban kerja 24/7 dalam kapasitas hingga 10 TB. Dilengkapi dengan firmware ImagePerfect yang semakin baik,
-            SkyHawk membantu mengurangi bingkai yang hilang dan waktu lumpuh dengan 3 kali peringkat beban kerja dari hard disk desktop dan siap merekam hingga 90% dari waktu sekaligus mendukung
-            hingga 64 kamera HD.
-
-            Firmware ImagePerfect SkyHawk memungkinkan streaming video yang lancar dan jelas untuk lingkungan pengawasan 24/7 yang selalu nyala membantu untuk memastikan bisnis Anda mendapatkan
-            lapisan perlindungan yang hebat.'
+        'gambar_produk' => 'Panasonic-CV-CPW103L-CV-CPW103AL-OUTDOOR-CCTV.jpg',
+        'harga_produk' => 765000,
+        'deskripsi_produk' => '
+          <h5>Fitur</h5>
+          <ul>
+            <li>Kamera outdoor Panasonic CV-CPW103L</li>
+            <li>specifications</li>
+            <li>Image sensor : 1/2.9" 1.0 mega pixels CMOS</li>
+            <li>Effective pixels : 1280(H) x 720 (V)</li>
+            <li>Min illumination: 0.05lux / F: 1.6, 0lux IR on</li>
+            <li>Max IR distance: 20m</li>
+            <li>Focal Length : 3.6mm</li>
+            <li>Angular Field of View: H: 88 V: 46</li>
+            <li>Lens Type : M12</li>
+            <li>Video output : 1CH BNC HD-CVI video output</li>
+            <li>Power :DC 12V25%</li>
+            <li>Power Consumption: 3.5W MAX</li>
+            <li>Working Temperature: -30~+60.</li>
+            <li>Less than 95% RH (no condensation)</li>
+            <li>Dimensions :70 mm 154 mm</li>
+            <li>Weight (approx.) :300g</li>
+            <li>Installation Mode: Wall mount</li>
+            <li>External Case : Metal</li>
+          </ul>
+        '
+      ],
+      [
+        'id' => 4.2,
+        'nama_produk' => 'Panasonic CV-CFN103L / CV-CFN103AL INDOOR CCTV',
+        'merek_produk' => 'Panasonic',
+        'jenis_produk' => 'CCTV',
+        'gambar_produk' => 'Panasonic-CV-CFN103L-CV-CFN103AL-INDOOR-CCTV.jpg',
+        'harga_produk' => 530000,
+        'deskripsi_produk' => '
+          <h5>Fitur</h5>
+          <ul>
+            <li>High-performance CMOS image sensor.</li>
+            <li>Support 720p@25fps (PAL)/ 30fps (NTSC)</li>
+            <li>Support 75-3 coaxial cable transmission over 800m.</li>
+            <li>High speed & long distance real-time transmission.</li>
+            <li>Support ICR for day time and night time operation.</li>
+            <li>Support auto exposure, auto white balance, auto</li>
+            <li>electronic shutter and auto gain function.</li>
+            <li>Support DC12V power supply.</li>
+            <li>Standard Accessories</li>
+            <li>Quick guide....1 pc</li>
+            <li>Important safety instruction.1 pc</li>
+          </ul>
+          
+          <ul>
+            <li>Parameter CV-CFN103L CV-CFN103LN</li>
+            <li>Camera</li>
+            <li>Image Sensor 1/2.9" 1.0 Mega Pixels CMOS</li>
+            <li>Effective Pixels 1280 (H) x 720 (V)</li>
+            <li>Min Illumination 0.05Lux/ F1.6, 0Lux IR on</li>
+            <li>Electronic Shutter 1/50s~1/100,000s 1/60s~1/100,000s</li>
+            <li>Video Frame Rate 25fps 30fps</li>
+            <li>Synchronization Internal</li>
+            <li>Day & Night Auto (ICR)/ Color/ B/W</li>
+            <li>Max IR Distance 20m</li>
+            <li>Digital Noise Reduction 2D</li>
+            <li>White Balance Auto</li>
+            <li>AGC Auto</li>
+            <li>BLC Auto</li>
+            <li>Lens</li>
+            <li>Focal Length 3.6 mm</li>
+            <li>Angular Field of View H: 88 V: 46</li>
+            <li>Lens Type M12</li>
+            <li>Input / Output</li>
+            <li>Video Output 1 CH BNC HD-CVI video output</li>
+            <li>General</li>
+            <li>Power DC 12V25%</li>
+            <li>Power Consumption 2.2W MAX</li>
+            <li>Working Temperature -30~+60.</li>
+            <li>Less than 95% RH (no condensation)</li>
+            <li>Dimensions 85 mm 69 mm</li>
+            <li>Weight (approx.) 100g</li>
+            <li>Installation Mode Wall mount/ In-ceiling mount</li>
+            <li>External Case Plastic</li>
+          </ul>
+        '
       ],
       [
         'id' => 5,
@@ -105,19 +208,20 @@
       ],
       [
         'id' => 7,
-        'nama_produk' => 'Belden',
+        'nama_produk' => 'Kabel UTP Cat 6 BELDEN',
         'merek_produk' => 'Belden',
         'jenis_produk' => 'Cable',
-        'gambar_produk' => 'skyhawk.jpg',
-        'harga_produk' => 100000,
-        'deskripsi_produk' => 'Seagate SkyHawk sangat sesuai untuk menjalankan Aplikasi DVR dan NVR pengawasan UKM.
+        'gambar_produk' => 'belden-utp-cat6.jpg',
+        'harga_produk' => 2126500,
+        'deskripsi_produk' => '
+          <ul>
+            <li>Kabel Belden UTP cat.6 (7814A) merupakan kabel untuk jaringan ethernet gigabit dengan kecepatan 1000 Mbps.</li>
 
-            Dioptimalkan untuk DVR dan NVR, hard disk pengawasan SkyHawk disesuaikan untuk beban kerja 24/7 dalam kapasitas hingga 10 TB. Dilengkapi dengan firmware ImagePerfect yang semakin baik,
-            SkyHawk membantu mengurangi bingkai yang hilang dan waktu lumpuh dengan 3 kali peringkat beban kerja dari hard disk desktop dan siap merekam hingga 90% dari waktu sekaligus mendukung
-            hingga 64 kamera HD.
+            <li>Panjang 1000 feet atau 305 meter.</li>
 
-            Firmware ImagePerfect SkyHawk memungkinkan streaming video yang lancar dan jelas untuk lingkungan pengawasan 24/7 yang selalu nyala membantu untuk memastikan bisnis Anda mendapatkan
-            lapisan perlindungan yang hebat.'
+            <li>Warna Kabel abu-abu</li>
+          </ul>
+        '
       ],
       [
         'id' => 8,
