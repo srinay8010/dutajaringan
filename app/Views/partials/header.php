@@ -42,7 +42,7 @@
                   </div>
 
                   <ul class="dropdown-menu p-2">
-                    <a href="/products" class="dropdown-item">Item#$1</a>
+                    <li><a href="/products" class="dropdown-item">Item#$1</a></li>
                   </ul>
                 </div>
 
