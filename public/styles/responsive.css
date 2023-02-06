@@ -110,12 +110,11 @@
   ul.btn li {
     padding: 0px 7px;
   }
-  #sidebarCollapse {
-    padding-right: 8px;
+
+  .banner .banner_bg .banner_information {
+    margin-top: -13rem;
   }
-  .banner_main {
-    padding: 0px 0 90px 0;
-  }
+
   .text-bg h1 {
     font-size: 44px;
     line-height: 64px;

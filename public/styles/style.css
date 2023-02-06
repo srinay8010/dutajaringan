@@ -461,9 +461,10 @@ body.open .navbar-menu {
 
 .banner .banner_bg {
   padding-top: 1rem;
+  padding-block: 14rem;
   width: 100%;
-  min-height: 90vh;
-  display: flex;
+  /* height: 90vh; */
+  /* display: flex; */
   align-items: center;
   background: url(../images/iot.jpg) no-repeat;
   background-size: cover;
@@ -473,9 +474,17 @@ body.open .navbar-menu {
 
 .banner .banner_bg .banner_information {
   margin: 1rem;
+  margin-top: -9rem;
   border-radius: 1rem;
   position: relative;
+  float: right;
   backdrop-filter: blur(0.3rem);
+}
+
+@media (width >= 576px) {
+  .banner .banner_bg .banner_information {
+    margin-right: 4rem;
+  }
 }
 
 .banner .banner_bg .banner_information .banner_title {
@@ -741,6 +750,7 @@ body.open .navbar-menu {
   width: 19%;
 } */
 
+.product .card-title,
 .card-product .product-item .card .card-body .card-title {
   display: -webkit-box;
   -webkit-box-orient: vertical;
