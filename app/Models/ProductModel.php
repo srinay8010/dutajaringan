@@ -68,7 +68,7 @@
         '
       ],
       [
-        'id' => 3.2,
+        'id' => 4,
         'nama_produk' => 'CCTV Hikvision DS-2CE76D0T-EXIPF Indoor',
         'merek_produk' => 'Hikvision',
         'jenis_produk' => 'CCTV',
@@ -88,7 +88,7 @@
         '
       ],
       [
-        'id' => 4,
+        'id' => 5,
         'nama_produk' => 'Panasonic CV-CPW103L / CV-CPW103AL OUTDOOR CCTV',
         'merek_produk' => 'Panasonic',
         'jenis_produk' => 'CCTV',
@@ -119,7 +119,7 @@
         '
       ],
       [
-        'id' => 4.2,
+        'id' => 6,
         'nama_produk' => 'Panasonic CV-CFN103L / CV-CFN103AL INDOOR CCTV',
         'merek_produk' => 'Panasonic',
         'jenis_produk' => 'CCTV',
@@ -175,39 +175,60 @@
         '
       ],
       [
-        'id' => 5,
-        'nama_produk' => 'ACTi',
+        'id' => 7,
+        'nama_produk' => 'Acti D31 CCTV Camera',
         'merek_produk' => 'ACTi',
         'jenis_produk' => 'CCTV',
-        'gambar_produk' => 'skyhawk.jpg',
-        'harga_produk' => 100000,
-        'deskripsi_produk' => 'Seagate SkyHawk sangat sesuai untuk menjalankan Aplikasi DVR dan NVR pengawasan UKM.
+        'gambar_produk' => 'Acti-D31-CCTV-Camera.jpg',
+        'harga_produk' => 3350000,
+        'deskripsi_produk' => '
+          <p>CCTV Camera Acti D31 adalah IP Camera, dengan spesifikasi :</p>
 
-            Dioptimalkan untuk DVR dan NVR, hard disk pengawasan SkyHawk disesuaikan untuk beban kerja 24/7 dalam kapasitas hingga 10 TB. Dilengkapi dengan firmware ImagePerfect yang semakin baik,
-            SkyHawk membantu mengurangi bingkai yang hilang dan waktu lumpuh dengan 3 kali peringkat beban kerja dari hard disk desktop dan siap merekam hingga 90% dari waktu sekaligus mendukung
-            hingga 64 kamera HD.
-
-            Firmware ImagePerfect SkyHawk memungkinkan streaming video yang lancar dan jelas untuk lingkungan pengawasan 24/7 yang selalu nyala membantu untuk memastikan bisnis Anda mendapatkan
-            lapisan perlindungan yang hebat.'
+          <ul>
+            <li>1MP Bullet with D/N, Adaptive IR, Fixed Lens</li>
+            <li>1 Megapixel with 720p</li>
+            <li>Day & Night with Adaptive IR LED</li>
+            <li>Fixed Lens with f4.2mm / F1.8</li>
+            <li>30 fps at 1280 x 720</li>
+            <li>Weatherproof (IP66)</li>
+          </ul>
+        '
       ],
       [
-        'id' => 6,
-        'nama_produk' => 'AMTEK',
+        'id' => 8,
+        'nama_produk' => 'Acti D11 CCTV Camera',
+        'merek_produk' => 'ACTi',
+        'jenis_produk' => 'CCTV',
+        'gambar_produk' => 'Acti-D11-CCTV-Camera.jpg',
+        'harga_produk' => 2066000,
+        'deskripsi_produk' => '
+          <p>CCTV Camera ACTI D11 merupakan IP Cameran dengan resolusi 1MP, bentuk Cube dengan lensa fixed, f3.6mm/F2.0, H.264, 720p/30fps, DNR, POE</p>
+        '
+      ],
+      [
+        'id' => 9,
+        'nama_produk' => 'Amtek AMT-2PTZ4M 4X Optical Zoom',
         'merek_produk' => 'AMTEK',
         'jenis_produk' => 'CCTV',
-        'gambar_produk' => 'skyhawk.jpg',
-        'harga_produk' => 100000,
-        'deskripsi_produk' => 'Seagate SkyHawk sangat sesuai untuk menjalankan Aplikasi DVR dan NVR pengawasan UKM.
-
-            Dioptimalkan untuk DVR dan NVR, hard disk pengawasan SkyHawk disesuaikan untuk beban kerja 24/7 dalam kapasitas hingga 10 TB. Dilengkapi dengan firmware ImagePerfect yang semakin baik,
-            SkyHawk membantu mengurangi bingkai yang hilang dan waktu lumpuh dengan 3 kali peringkat beban kerja dari hard disk desktop dan siap merekam hingga 90% dari waktu sekaligus mendukung
-            hingga 64 kamera HD.
-
-            Firmware ImagePerfect SkyHawk memungkinkan streaming video yang lancar dan jelas untuk lingkungan pengawasan 24/7 yang selalu nyala membantu untuk memastikan bisnis Anda mendapatkan
-            lapisan perlindungan yang hebat.'
+        'gambar_produk' => 'Amtek-AMT-2PTZ4M-4X-Optical-Zoom.jpg',
+        'harga_produk' => 1800000,
+        'deskripsi_produk' => '
+          <ul>
+            <li>PTZ camera 4X Optical Zoom</li>
+            <li>HD-IP 1080P support H.265</li>
+            <li>Lens: 4mm (2.8-12mm 4X zoom optical)</li>
+            <li>Dual Light: IR/Full color mode free switching</li>
+            <li>Two way audio: built in microphone and speaker</li>
+            <li>IR distance aprox 50 m</li>
+            <li>2.0 MP CMOS sensor</li>
+            <li>Support auto white balance, auto focus, auto exposure, auto noise reduction, auto contrast adjustment.</li>
+            <li>Full compatible ONVIF protocol</li>
+            <li>Gross Weight 2 kg</li>
+          </ul>
+        '
       ],
       [
-        'id' => 7,
+        'id' => 10,
         'nama_produk' => 'Kabel UTP Cat 6 BELDEN',
         'merek_produk' => 'Belden',
         'jenis_produk' => 'Cable',
@@ -223,6 +244,9 @@
           </ul>
         '
       ],
+    ];
+
+    static $notuseData = [
       [
         'id' => 8,
         'nama_produk' => 'ANENG',
