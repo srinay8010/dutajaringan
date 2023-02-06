@@ -11,7 +11,7 @@
         <div class="card shadow-sm">
           <img src="<?= base_url('/images/products/' . $product->gambar_produk); ?>" class="card-img-top" alt="<?= $product->nama_produk; ?>">
           <div class="card-body px-2">
-            <h3 class="card-title fs-6 fw-normal"><?= $product->nama_produk; ?></h3>
+            <h3 class="card-title fs-6 fw-normal" title="<?= $product->nama_produk; ?>"><?= $product->nama_produk; ?></h3>
             <span class="badge text-bg-info m-2 position-absolute top-0 bg-opacity-50" style="left: 0;"><?= $product->jenis_produk; ?></span>
             <p class="card-text">
               <?php

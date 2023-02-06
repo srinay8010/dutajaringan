@@ -117,7 +117,7 @@
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/products/' . $produk[0]->gambar_produk); ?>" alt="<?= $produk[0]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
-            <h3 class="card-title fs-6"><?= $produk[0]->nama_produk; ?></h3>
+            <h3 class="card-title fs-6" title="<?= $produk[0]->nama_produk; ?>"><?= $produk[0]->nama_produk; ?></h3>
             <p class="card-text">
               <?php
                 $fmt = numfmt_create( 'id_ID', NumberFormatter::CURRENCY );
@@ -133,7 +133,7 @@
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/products/' . $produk[1]->gambar_produk); ?>" alt="<?= $produk[1]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
-            <h3 class="card-title fs-6"><?= $produk[1]->nama_produk; ?></h3>
+            <h3 class="card-title fs-6" title="<?= $produk[1]->nama_produk; ?>"><?= $produk[1]->nama_produk; ?></h3>
             <p class="card-text">
               <?php
                 $fmt = numfmt_create( 'id_ID', NumberFormatter::CURRENCY );
@@ -149,7 +149,7 @@
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/products/' . $produk[2]->gambar_produk); ?>" alt="<?= $produk[2]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
-            <h3 class="card-title fs-6"><?= $produk[2]->nama_produk; ?></h3>
+            <h3 class="card-title fs-6" title="<?= $produk[2]->nama_produk; ?>"><?= $produk[2]->nama_produk; ?></h3>
             <p class="card-text">
               <?php
                 $fmt = numfmt_create( 'id_ID', NumberFormatter::CURRENCY );
@@ -165,7 +165,7 @@
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/products/' . $produk[3]->gambar_produk); ?>" alt="<?= $produk[3]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
-            <h3 class="card-title fs-6"><?= $produk[3]->nama_produk; ?></h3>
+            <h3 class="card-title fs-6" title="<?= $produk[3]->nama_produk; ?>"><?= $produk[3]->nama_produk; ?></h3>
             <p class="card-text">
               <?php
                 $fmt = numfmt_create( 'id_ID', NumberFormatter::CURRENCY );
@@ -181,7 +181,7 @@
         <div class="card shadow rounded-4">
           <img src="<?= base_url('/images/products/' . $produk[4]->gambar_produk); ?>" alt="<?= $produk[4]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
-            <h3 class="card-title fs-6"><?= $produk[4]->nama_produk; ?></h3>
+            <h3 class="card-title fs-6" title="<?= $produk[4]->nama_produk; ?>"><?= $produk[4]->nama_produk; ?></h3>
             <p class="card-text">
               <?php
                 $fmt = numfmt_create( 'id_ID', NumberFormatter::CURRENCY );
