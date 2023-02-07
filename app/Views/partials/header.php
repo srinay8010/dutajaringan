@@ -27,11 +27,11 @@
                   </div>
 
                   <ul class="dropdown-menu p-2">
-                    <li><a href="/products" class="dropdown-item">Item 1</a></li>
-                    <li><a href="/products" class="dropdown-item">Item 2</a></li>
-                    <li><a href="/products" class="dropdown-item">Item 3</a></li>
-                    <li><a href="/products" class="dropdown-item">Item 4</a></li>
-                    <li><a href="/products" class="dropdown-item">Item 5</a></li>
+                    <li><a href="/products" class="dropdown-item">PREMIUM</a></li>
+                    <li><a href="/products" class="dropdown-item">DELI</a></li>
+                    <li><a href="/products" class="dropdown-item">ICON</a></li>
+                    <li><a href="/products" class="dropdown-item">ZKTECO</a></li>
+                    <li><a href="/products" class="dropdown-item">Solution</a></li>
                   </ul>
                 </div>
 
@@ -42,7 +42,10 @@
                   </div>
 
                   <ul class="dropdown-menu p-2">
-                    <li><a href="/products" class="dropdown-item">Item#$1</a></li>
+                    <li><a href="/products" class="dropdown-item">Hikvision</a></li>
+                    <li><a href="/products" class="dropdown-item">ZKTECO</a></li>
+                    <li><a href="/products" class="dropdown-item">EMLOCK</a></li>
+                    <li><a href="/products" class="dropdown-item">FRAME</a></li>
                   </ul>
                 </div>
 
@@ -106,7 +109,9 @@
                   </div>
 
                   <ul class="dropdown-menu p-2">
-                    <li><a href="/products" class="dropdown-item">Item 5</a></li>
+                    <li><a href="/products" class="dropdown-item">Bardi</a></li>
+                    <li><a href="/products" class="dropdown-item">SONOFF</a></li>
+                    <li><a href="/products" class="dropdown-item">LUMI</a></li>
                   </ul>
                 </div>
 
@@ -117,7 +122,8 @@
                   </div>
 
                   <ul class="dropdown-menu p-2">
-                    <li><a href="/products" class="dropdown-item">Item 6</a></li>
+                    <li><a href="/products" class="dropdown-item">TP-Link</a></li>
+                    <li><a href="/products" class="dropdown-item">netLink</a></li>
                   </ul>
                 </div>
 
