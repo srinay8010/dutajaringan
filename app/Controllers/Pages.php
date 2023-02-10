@@ -33,3 +33,5 @@ class Pages extends BaseController {
         return view('pages/'. $page);
     }
 }
+
+// git push
