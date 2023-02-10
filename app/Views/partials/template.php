@@ -68,7 +68,7 @@
         "ctaText": "Start Chat",
         "borderRadius": "25",
         "autoShow": false,
-        "phoneNumber": "62383499425"
+        "phoneNumber": "0895332908555"
       }
     };
     s.onload = function() {

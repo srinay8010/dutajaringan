@@ -25,7 +25,7 @@
         </div>
 
         <button type="button" class="bg-transparent">
-          <a href="https://api.whatsapp.com/send?phone=62383499425&amp;text=Hello, I have a question about your products and services" role="button" target="_blank" title="WhatsApp"
+          <a href="https://api.whatsapp.com/send?phone=0895332908555&amp;text=Hello, I have a question about your products and services" role="button" target="_blank" title="WhatsApp"
              class="wa-chat-box-content-send-btn m-0 px-4"><i class="fa-brands fa-whatsapp me-2"></i> Beli
           </a>
         </button>
