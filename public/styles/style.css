@@ -414,11 +414,6 @@ body.open .navbar-menu {
   flex-direction: column;
 }
 
-.dropend .dropdown-menu[data-bs-popper] {
-  margin-top: -2.5rem;
-  top: auto;
-}
-
 /*-- header area --*/
 
 /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
