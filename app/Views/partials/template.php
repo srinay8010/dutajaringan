@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="<?= base_url('./styles/style.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('./styles/responsive.css'); ?>">
 
-    <!-- fevicon -->
-    <link rel="icon" href="images/fevicon.png" type="image/png" />
+    <!-- Favicon logo -->
+    <link rel="icon" href="<?= base_url('./images/icon.png'); ?>" type="image/png" />
 
     <!-- Title -->
     <title>Duta Jaringan Indonesia</title>

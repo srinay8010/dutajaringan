@@ -21,7 +21,7 @@
 :root {
   --white-color: #fff;
   --black-color: #000;
-  --blue-color: #0eadef;
+  --blue-color: #70a0e2;
   --blue-color-2: #0192c8;
   --theme-background: #38c8a8;
 }
@@ -440,16 +440,12 @@ body.open .navbar-menu {
 }
 
 .logo a {
-  font-size: 40px;
-  font-weight: bold;
   text-transform: uppercase;
-  color: var(--white-color);
-  line-height: 10px;
+  color: var(--blue-color);
 }
 
 .logo img {
-  max-width: 80%;
-  align-items: center;
+  width: 10%;
 }
 
 /** banner section **/

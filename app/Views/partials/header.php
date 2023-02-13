@@ -5,7 +5,8 @@
     <div class="container">
       <div class="logo">
         <a class="navbar-brand" href="<?= base_url(); ?>">
-          <img src="<?= base_url('./images/logo.png'); ?>" alt="#" width="200" />
+          <img src="<?= base_url('./images/icon.png'); ?>" alt="#" width="200" />
+          <span>PT Duta Jaringan Indonesia</span>
         </a>
       </div>
 
