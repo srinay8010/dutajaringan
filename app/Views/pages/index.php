@@ -19,7 +19,7 @@
     <div class="row d_flex">
       <div class="col-md-5">
         <div class="about_img">
-          <figure><img src="<?= base_url('./public/images/about_index.jpeg'); ?>" alt="#" /></figure>
+          <figure><img src="<?= base_url('./images/about_index.jpeg'); ?>" alt="#" /></figure>
         </div>
       </div>
 
@@ -48,7 +48,7 @@
 
         <div class="col-sm-6 col-md-4 px-3 px-md-1 mb-2">
           <div class="choose_box">
-            <i><img src="<?= base_url('./public/images/admin.png'); ?>" alt="#" /></i>
+            <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Construction</h3>
             <p>
               PT DUTA JARINGAN INDONESIA memberikan pelayanan dan solusi dalam sebuah bidang arsitektur sistem jaringan secara keseluruhan atau sebagian rangakaian kegiatan perencanaan dan atau
@@ -60,7 +60,7 @@
 
         <div class="col-sm-6 col-md-4 px-3 px-md-1 mb-2">
           <div class="choose_box">
-            <i><img src="<?= base_url('./public/images/admin.png'); ?>" alt="#" /></i>
+            <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Implementation</h3>
             <p>
               PT DUTA JARINGAN INDONESIA menerapkan dan mewujudkan sebuah rencana yang
@@ -71,7 +71,7 @@
 
         <div class="col-sm-6 col-md-4 px-3 px-md-1 mb-2">
           <div class="choose_box">
-            <i><img src="<?= base_url('./public/images/admin.png'); ?>" alt="#" /></i>
+            <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Maintenance & Service</h3>
             <p>
               PT DUTA JARINGAN INDONESIA bergerak di bidang maintenance dan
@@ -85,7 +85,7 @@
 
         <div class="col-sm-6 col-md-4 px-3 px-md-1 mb-2">
           <div class="choose_box">
-            <i><img src="<?= base_url('./public/images/admin.png'); ?>" alt="#" /></i>
+            <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Rental</h3>
             <p>
               PT DUTA JARINGAN INDONESIA menyewakan alat untuk memenuhi dan memberikan solusi pada customer.
@@ -95,7 +95,7 @@
 
         <div class="col-sm-6 col-md-4 px-3 px-md-1 mb-2">
           <div class="choose_box">
-            <i><img src="<?= base_url('./public/images/admin.png'); ?>" alt="#" /></i>
+            <i><img src="<?= base_url('./images/admin.png'); ?>" alt="#" /></i>
             <h3>Web Development</h3>
             <p>
               PT DUTA JARINGAN INDONESIA menawarkan jasa untuk membangun dan mendesain sebuah website untuk memenuhi kebutuhan bisnis Anda.
@@ -115,7 +115,7 @@
     <div class="row mb-5 justify-content-center">
       <div class="col-6 col-md-4 col-lg-2 mb-3">
         <div class="card shadow rounded-4">
-          <img src="<?= base_url('/public/images/products/' . $produk[0]->gambar_produk); ?>" alt="<?= $produk[0]->nama_produk; ?>" class="card-img-top rounded-4">
+          <img src="<?= base_url('/images/products/' . $produk[0]->gambar_produk); ?>" alt="<?= $produk[0]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
             <h3 class="card-title fs-6" title="<?= $produk[0]->nama_produk; ?>"><?= $produk[0]->nama_produk; ?></h3>
             <p class="card-text">
@@ -131,7 +131,7 @@
 
       <div class="col-6 col-md-4 col-lg-2 mb-3">
         <div class="card shadow rounded-4">
-          <img src="<?= base_url('/public/images/products/' . $produk[1]->gambar_produk); ?>" alt="<?= $produk[1]->nama_produk; ?>" class="card-img-top rounded-4">
+          <img src="<?= base_url('/images/products/' . $produk[1]->gambar_produk); ?>" alt="<?= $produk[1]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
             <h3 class="card-title fs-6" title="<?= $produk[1]->nama_produk; ?>"><?= $produk[1]->nama_produk; ?></h3>
             <p class="card-text">
@@ -147,7 +147,7 @@
 
       <div class="col-6 col-md-4 col-lg-2 mb-3">
         <div class="card shadow rounded-4">
-          <img src="<?= base_url('/public/images/products/' . $produk[2]->gambar_produk); ?>" alt="<?= $produk[2]->nama_produk; ?>" class="card-img-top rounded-4">
+          <img src="<?= base_url('/images/products/' . $produk[2]->gambar_produk); ?>" alt="<?= $produk[2]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
             <h3 class="card-title fs-6" title="<?= $produk[2]->nama_produk; ?>"><?= $produk[2]->nama_produk; ?></h3>
             <p class="card-text">
@@ -163,7 +163,7 @@
 
       <div class="col-6 col-md-4 col-lg-2 mb-3">
         <div class="card shadow rounded-4">
-          <img src="<?= base_url('/public/images/products/' . $produk[3]->gambar_produk); ?>" alt="<?= $produk[3]->nama_produk; ?>" class="card-img-top rounded-4">
+          <img src="<?= base_url('/images/products/' . $produk[3]->gambar_produk); ?>" alt="<?= $produk[3]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
             <h3 class="card-title fs-6" title="<?= $produk[3]->nama_produk; ?>"><?= $produk[3]->nama_produk; ?></h3>
             <p class="card-text">
@@ -179,7 +179,7 @@
 
       <div class="col-6 col-md-4 col-lg-2 mb-3">
         <div class="card shadow rounded-4">
-          <img src="<?= base_url('/public/images/products/' . $produk[4]->gambar_produk); ?>" alt="<?= $produk[4]->nama_produk; ?>" class="card-img-top rounded-4">
+          <img src="<?= base_url('/images/products/' . $produk[4]->gambar_produk); ?>" alt="<?= $produk[4]->nama_produk; ?>" class="card-img-top rounded-4">
           <div class="card-body">
             <h3 class="card-title fs-6" title="<?= $produk[4]->nama_produk; ?>"><?= $produk[4]->nama_produk; ?></h3>
             <p class="card-text">
@@ -238,7 +238,7 @@ function initMap() {
     },
   });
 
-  var image = '/public/images/maps-and-flags.png';
+  var image = 'images/maps-and-flags.png';
   var beachMarker = new google.maps.Marker({
     position: {
       lat: -6.2508198,

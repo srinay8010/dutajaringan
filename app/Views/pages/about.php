@@ -34,15 +34,15 @@
 
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="<?= base_url('/publicimages/banner.jpg'); ?>" class="d-block w-100" alt="">
+          <img src="<?= base_url('./images/banner.jpg'); ?>" class="d-block w-100" alt="">
         </div>
 
         <div class="carousel-item">
-          <img src="<?= base_url('/publicimages/banner.jpg'); ?>" class="d-block w-100" alt="">
+          <img src="<?= base_url('./images/banner.jpg'); ?>" class="d-block w-100" alt="">
         </div>
 
         <div class="carousel-item">
-          <img src="<?= base_url('/publicimages/banner.jpg'); ?>" class="d-block w-100" alt="">
+          <img src="<?= base_url('./images/banner.jpg'); ?>" class="d-block w-100" alt="">
         </div>
       </div>
 

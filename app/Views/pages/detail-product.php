@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-5">
       <picture class="d-flex justify-content-center">
-        <img src="<?= base_url('/public/images/products/' . $product->gambar_produk); ?>" alt="<?= $product->nama_produk; ?>" class="product-image w-75">
+        <img src="<?= base_url('images/products/' . $product->gambar_produk); ?>" alt="<?= $product->nama_produk; ?>" class="product-image w-75">
       </picture>
     </div>
 

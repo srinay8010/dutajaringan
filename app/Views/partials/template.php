@@ -11,12 +11,12 @@
     <meta name="author" content="Duta Jaringan Dev">
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="<?= base_url('/public/styles/bootstrap.min.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('/public/styles/style.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('/public/styles/responsive.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('./styles/bootstrap.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('./styles/style.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('./styles/responsive.css'); ?>">
 
     <!-- Favicon logo -->
-    <link rel="icon" href="<?= base_url('/public/images/icon.png'); ?>" type="image/png" />
+    <link rel="icon" href="<?= base_url('./images/icon.png'); ?>" type="image/png" />
 
     <!-- Title -->
     <title>Duta Jaringan Indonesia</title>
@@ -32,17 +32,17 @@
 
     <!-- Javascript files-->
     <script src="https://kit.fontawesome.com/a1cf9facd4.js" crossorigin="anonymous"></script>
-    <script src="<?= base_url('/public/js/jquery.min.js'); ?>"></script>
-    <script src="<?= base_url('/public/js/popper.min.js'); ?>"></script>
-    <script src="<?= base_url('/public/js/bootstrap.bundle.min.js'); ?>"></script>
-    <script src="<?= base_url('/public/js/jquery-3.0.0.min.js'); ?>"></script>
-    <script src="<?= base_url('/public/js/custom.js'); ?>"></script>
+    <script src="<?= base_url('./js/jquery.min.js'); ?>"></script>
+    <script src="<?= base_url('./js/popper.min.js'); ?>"></script>
+    <script src="<?= base_url('./js/bootstrap.bundle.min.js'); ?>"></script>
+    <script src="<?= base_url('./js/jquery-3.0.0.min.js'); ?>"></script>
+    <script src="<?= base_url('./js/custom.js'); ?>"></script>
 
     <?= $this->renderSection('script'); ?>
 
 
     <script>
-    var url = '<?= base_url('/public/js/shopifyWidget.js'); ?>';
+    var url = '<?= base_url('./js/shopifyWidget.js'); ?>';
     var s = document.createElement('script');
     s.type = 'text/javascript';
     s.async = true;
@@ -61,7 +61,7 @@
       "brandSetting": {
         "brandName": "PT DUTA JARINGAN INDONESIA",
         "brandSubTitle": "Typically replies within a day",
-        "brandImg": "<?= base_url('/public/images/logo.png'); ?>",
+        "brandImg": "<?= base_url('./images/logo.png'); ?>",
         "welcomeText": "Hi there!\nHow can I help you?",
         "messageText": "Hello, I have a question about your products and services",
         "backgroundColor": "#0a5f54",
